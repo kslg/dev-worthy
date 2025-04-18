@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import './App.css';
+import NavBar from './components/Navbar.jsx';
 
 function App() {
   const [quote, setQuote] = useState(null);
@@ -25,6 +26,7 @@ function App() {
 
   return (
     <div className="container">
+      <NavBar/>
       <h1>📜 Random Quote Generator</h1>
       <div className="quote-box">
         {loading ? (
