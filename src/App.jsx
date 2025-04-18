@@ -25,7 +25,7 @@ function App() {
   }, []);
 
   return (
-    <div className="container">
+    <>
       <NavBar/>
       <h1>📜 Random Quote Generator</h1>
       <div className="quote-box">
@@ -39,7 +39,7 @@ function App() {
         )}
       </div>
       <button onClick={fetchQuote}>Get New Quote</button>
-    </div>
+    </>
   );
 }
 
