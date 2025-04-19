@@ -30,7 +30,7 @@ function App() {
       <NavBar />
       <main className="container-main">
         <section className="section-app container">
-          <h1>📜 Random Quote Generator</h1>
+          <h1>Daily Dev Affirmation</h1>
           <div className="quote-box">
             {loading ? (
               <p>Loading...</p>
