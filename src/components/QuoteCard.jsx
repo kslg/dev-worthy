@@ -22,6 +22,19 @@ const QuoteCard = () => {
   useEffect(() => {
     fetchQuote();
   }, []);
+
+  const saveToFavourites = () => {
+    const existing = JSON.parse(localStorage.getItem("favourites")) || [];
+    const isDuplicate = existing.some((fav) => fav.quote === quote.quote);
+
+    if (!isDuplicate) {
+      localStorage.setItem("favourites", JSON.stringify([...existing, quote]));
+      alert("Quote saved to favourites!");
+    } else {
+      alert("Quote is already in favourites.");
+    }
+  };
+
   return (
     <>
       <section className="section-app container">
@@ -39,6 +52,10 @@ const QuoteCard = () => {
           )}
         </div>
         <button onClick={fetchQuote}>Get New Quote</button>
+
+        <button onClick={saveToFavourites} disabled={loading}>
+          Save to Favourites
+        </button>
       </section>
     </>
   );
