@@ -1,0 +1,63 @@
+/* NavBar.module.css */
+
+.navWrapper {
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+  transition: background-color 0.3s ease;
+  background-color: #035069;
+}
+
+.brandText {
+  font-size: 1.8rem;
+  font-weight: 700;
+  color: #FEBD36 !important;
+  letter-spacing: 1px;
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  max-height: 110px;
+  margin-right: 10px;
+  transition: transform 0.3s ease;
+}
+
+.logo:hover {
+  transform: scale(1.05);
+}
+
+.navLink {
+  font-size: 1.3rem;
+  color: #FEBD36 !important;
+  margin: 0 1.5rem;
+  position: relative;
+  transition: color 0.2s ease;
+  text-decoration: none;
+}
+
+.navLink::after {
+  content: "";
+  display: block;
+  height: 2px;
+  width: 0%;
+  background-color: #FEFAE6;
+  transition: width 0.3s ease;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+.navLink:hover {
+  color: #FEFAE6 !important;
+}
+
+.navLink:hover::after {
+  width: 100%;
+}
+
+.toggler {
+  border-color: #FEFAE6;
+}
+
+.togglerIcon:hover {
+  background-color: #FEFAE6;
+}
