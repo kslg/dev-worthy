@@ -49,8 +49,9 @@ This project has been built as a collaborative project through [Code Institute](
 
 
 - View inspiring quotes
-- View coding tips and tricks --tbc
+- View coding tips and tricks
 - Save quotes to favourites
+- View information about the team
 
 
 <sup><sub>[*Back to top*](#devworthy)</sup></sub>
