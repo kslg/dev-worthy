@@ -1,0 +1,50 @@
+.modal-box {
+  background-color: #fefae6;
+  font-weight: 500;
+  font-size: 1.3rem;
+}
+
+.modal-header {
+  font-weight: 700;
+  font-family: "Poppins", sans-serif;
+  text-align: center;
+  font-size: 1.5rem;
+}
+
+.favorite-title {
+  color: #024E69;
+  font-size: 2.5rem;
+  margin-top: 2rem;
+  font-weight: 700;
+  font-family: "Poppins", sans-serif;
+  text-align: center;
+}
+
+.favorite-quote {
+  font-size: 1.5rem;
+  color: #024E69;
+}
+
+.no-favorite {
+  text-align: center;
+  font-size: 2rem;
+  margin: 5rem;
+  font-weight: 300;
+  text-transform: uppercase;
+  color: #024E69;
+}
+
+.btn-remove {
+  background-color: #fe8664;
+  border: none;
+  color: #024e69;
+  padding: 0.75rem 1.5rem;
+  font-size: 1rem;
+  border-radius: 12px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.btn-remove:hover {
+  background-color: #febd36;
+}
