@@ -10,6 +10,7 @@ function App() {
       <NavBar />
       <main className="container-main">
         <QuoteCard />
+
       </main>
       <Footer />
     </>
