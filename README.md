@@ -4,7 +4,7 @@
 
 By Alan, Anthony, Ieuan, Krish, and Melody
 
-[View the live project here.](-URL-)
+[View the live project here](https://anthonyradose.github.io/dev-worthy)
 
 This is the documentation for DevWorthy - an uplifting daily boost web app aimed towards combating imposter syndrome in aspiring web developers. The site has been built using HTML5, CSS3 with bootstrap templating, and ReactJS for the April 2025 Code Institute hackathon.
 
