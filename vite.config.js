@@ -12,6 +12,8 @@ export default defineConfig({
       crypto: path.resolve(__dirname, 'node_modules/crypto-browserify'),
     },
   },
+  optimizeDeps: {
+    // Ensure polyfill is bundled into the final build
+    include: ['crypto-browserify']
+  }
 })
-
-
