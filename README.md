@@ -78,15 +78,15 @@ The scope of DevWorthy was to create a clean, uplifting web app that delivers mo
 #### Site Structure
 
 
-As the purpose of the initial site is quite simple, the navigation route will be linear and will encourage users to view new quotes, view their favourite quotes, and view the dev team's information. This will be the order that the pages appear in the navigation bar along with interactive quote saving/removing and links within the content of the pages to encourage users to click over to the next area of the site.
+As the purpose of the initial site is quite simple, the navigation route will be linear and will encourage users to view new quotes, view the dev team's information, and view their favourite quotes. This will be the order that the pages appear in the navigation bar along with interactive quote saving/removing and links within the content of the pages to encourage users to click over to the next area of the site.
 
 - __Home Page:__ When users first navigate to the site they are taken to the index.html page, this provides users with an inspiring quote. Users can choose to add their quote to favourites or view a different quote.
 
 
-- __Favourites Page:__ Users can view their favourite quotes and remove them.
-
-
 - __Credits Page:__ Users can view information about the April 2025 hackathon team 4!
+
+
+- __Favourites Page:__ Users can view their favourite quotes and remove them.
 
 
 <sup><sub>[*Back to top*](#devworthy)</sup></sub>
@@ -226,7 +226,7 @@ Favicon generated with [Favicon.io](https://favicon.io/).
 
 | Feature | Description |
 |----|----|
-| **Improve styling across the site | Adding video backgrounds to create a more modern site. |
+| **Improve styling across the site** | Adding video backgrounds to create a more modern site. |
 | **Quote Submission Form** | Allow users to submit their own quotes. |
 | **User Authentication** | Enable user accounts to save favorites, submit content, or personalize the site. |
 | **Dark Mode Toggle** | Improve accessibility and UX with a light/dark theme switch. |
