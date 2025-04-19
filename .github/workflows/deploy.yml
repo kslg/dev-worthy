@@ -24,7 +24,7 @@ jobs:
 
     - name: Build the project
       run: |
-        echo “globalThis.crypto = require(‘crypto’).webcrypto;” > vite-shim.js
+        echo "globalThis.crypto = require('crypto').webcrypto;"> vite-shim.js
         node -r ./vite-shim.js node_modules/vite/bin/vite.js build
         
     - name: Deploy to GitHub Pages
