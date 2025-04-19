@@ -1,5 +1,5 @@
 import { defineConfig } from 'vite'
-import react from '@vitejs/plugin-react-swc'
+import react from '@vitejs/plugin-react'
 import path from 'path'
 
 // https://vite.dev/config/
@@ -12,4 +12,8 @@ export default defineConfig({
       crypto: path.resolve(__dirname, 'node_modules/crypto-browserify'),
     },
   },
+  optimizeDeps: {
+    // Ensure polyfill is bundled into the final build
+    include: ['crypto-browserify']
+  }
 })
