@@ -225,14 +225,11 @@ Favicon generated with [Favicon.io](https://favicon.io/).
 
 | Feature | Description |
 |----|----|
-| **Project Submission Form** | Allow users to submit their own project ideas or links for peer review. |
+| **Improve styling across the site | Adding video backgrounds to create a more modern site. |
+| **Quote Submission Form** | Allow users to submit their own quotes. |
 | **User Authentication** | Enable user accounts to save favorites, submit content, or personalize the site. |
 | **Dark Mode Toggle** | Improve accessibility and UX with a light/dark theme switch. |
 | **Search & Filter** | Let users quickly find content via tags, categories, or keywords. |
-| **Blog or Articles Section** | Share tutorials, dev tips, or project breakdowns with a blog layout. |
-| **Tagging System** | Tag projects/posts by tech, topic, or difficulty, and filter by tags. |
-| **Admin Dashboard** | Manage user submissions, content, and reports efficiently. |
-| **PWA (Progressive Web App)**| Allow the site to work offline and be installable on mobile/desktop. |
 | **Accessibility Enhancements** | Add ARIA roles, improve keyboard navigation, and screen reader support. |
 | **Multilingual Support** | Implement i18n for broader accessibility across languages. |
 
@@ -367,7 +364,7 @@ By forking the GitHub Repository, we make a copy of the original repository on o
 You can fork this repository by using the following steps:
 
 
-1. Log in to GitHub and locate the [GitHub Repository]()
+1. Log in to GitHub and locate the [GitHub Repository](https://github.com/anthonyradose/dev-worthy)
 2. At the top of the Repository (not top of page) just above the "Settings" Button on the menu, locate the "Fork" Button.
 3. Once clicked, you should now have a copy of the original repository in your own GitHub account!
 
@@ -378,7 +375,7 @@ You can fork this repository by using the following steps:
 You can clone the repository by following these steps:
 
 
-1. Go to the [GitHub repository]()
+1. Go to the [GitHub repository](https://github.com/anthonyradose/dev-worthy)
 2. Locate the Code button above the list of files and click it
 3. Select if you prefer to clone using HTTPS, SSH, or GitHub CLI and click the copy button to copy the URL to your clipboard
 4. Open Git shell or Terminal
