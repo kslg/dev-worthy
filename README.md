@@ -273,67 +273,64 @@ Fonts have been chosen for their simple style, promoting easy reading.
 ## Technologies Used
 
 
-### Languages
-
-
 ### 🧠 Languages & Technologies Used
 
 
-| Tool/Language        | Category        | Purpose                                                                 |
-|----------------------|------------------|--------------------------------------------------------------------------|
-| ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black) / ![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB) | Programming / Framework | Main logic for components, interactivity, and UI                         |
+| Tool/Language | Category | Purpose |
+|----|----|----|
+| ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black) / ![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB) | Programming / Framework | Main logic for components, interactivity, and UI |
 | ![JSX](https://img.shields.io/badge/JSX-61DAFB?style=for-the-badge&logo=react&logoColor=white) | Syntax Extension     | Combines JavaScript and HTML-like syntax in React components             |
 | ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white) | Markup Language      | Defines the structure of content via JSX                                 |
-| ![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white) | Styling Framework    | Styles components with utility-first classes                             |
-| ![JSON](https://img.shields.io/badge/JSON-292929?style=for-the-badge&logo=json&logoColor=white) | Data / Config Format | Used in configuration files like `package.json`                          |
-| ![Markdown](https://img.shields.io/badge/Markdown-000000?style=for-the-badge&logo=markdown&logoColor=white) | Documentation        | Used for writing documentation like `README.md`                          |
-
-
-### Frameworks
+| ![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white) | Styling Framework | Styles components with utility-first classes |
+| ![JSON](https://img.shields.io/badge/JSON-292929?style=for-the-badge&logo=json&logoColor=white) | Data / Config Format | Used in configuration files like `package.json` |
+| ![Markdown](https://img.shields.io/badge/Markdown-000000?style=for-the-badge&logo=markdown&logoColor=white) | Documentation | Used for writing documentation like `README.md` |
 
 
 ### 🚀 Built With
 
 
-| Tool/Framework      | Category       | Purpose                                                                 |
-|---------------------|----------------|-------------------------------------------------------------------------|
-| ![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB) | Frontend       | Core JavaScript framework used to build reusable UI components.        |
-| ![Vite](https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white) | Build Tool     | Fast dev server and build tool that bundles your app for production.   |
-| ![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white) | Styling        | Utility-first CSS framework for rapid UI development.                  |
-| ![gh-pages](https://img.shields.io/badge/gh--pages-deploy-blue?style=for-the-badge&logo=github) | Deployment     | Deploys your production build to GitHub Pages.                         |
-| ![npm](https://img.shields.io/badge/npm-CB3837?style=for-the-badge&logo=npm&logoColor=white) | Package Manager | Manages dependencies and scripts for the project.                      |
-| ![ESLint](https://img.shields.io/badge/ESLint-4B32C3?style=for-the-badge&logo=eslint&logoColor=white) / ![Prettier](https://img.shields.io/badge/Prettier-F7B93E?style=for-the-badge&logo=prettier&logoColor=black) | Linting/Formatting | Ensures code quality and formatting consistency (if configured).        |
-| ![PostCSS](https://img.shields.io/badge/PostCSS-DD3A0A?style=for-the-badge&logo=postcss&logoColor=white) | CSS Processing | Used with Tailwind to compile and autoprefix styles.                   |
+| Tool/Framework | Category | Purpose |
+|----|----|----|
+| ![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB) | Frontend | Core JavaScript framework used to build reusable UI components. |
+| ![Vite](https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white) | Build Tool | Fast dev server and build tool that bundles your app for production. |
+| ![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white) | Styling | Utility-first CSS framework for rapid UI development. |
+| ![gh-pages](https://img.shields.io/badge/gh--pages-deploy-blue?style=for-the-badge&logo=github) | Deployment | Deploys your production build to GitHub Pages. |
+| ![npm](https://img.shields.io/badge/npm-CB3837?style=for-the-badge&logo=npm&logoColor=white) | Package Manager | Manages dependencies and scripts for the project. |
+| ![ESLint](https://img.shields.io/badge/ESLint-4B32C3?style=for-the-badge&logo=eslint&logoColor=white) / ![Prettier](https://img.shields.io/badge/Prettier-F7B93E?style=for-the-badge&logo=prettier&logoColor=black) | Linting/Formatting | Ensures code quality and formatting consistency (if configured). |
+| ![PostCSS](https://img.shields.io/badge/PostCSS-DD3A0A?style=for-the-badge&logo=postcss&logoColor=white) | CSS Processing | Used with Tailwind to compile and autoprefix styles. |
 
 
-### Libraries
+### 🛠️ Libraries & Tools
 
 
-### 🛠️ Libraries & Tools in `dev-worthy`
+| Library/Tool | Category | Purpose |
+|----|----|----|
+| ![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB) | Frontend Framework | Core JavaScript framework for building UI components. |
+| ![ReactDOM](https://img.shields.io/badge/ReactDOM-20232A?style=for-the-badge&logo=react&logoColor=61DAFB) | DOM Rendering | Provides DOM-specific methods for React. |
+| ![Vite](https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white) | Build Tool | Fast development server and build tool. |
+| ![ESLint](https://img.shields.io/badge/ESLint-4B32C3?style=for-the-badge&logo=eslint&logoColor=white) | Linting Tool | Identifies and reports on patterns found in ECMAScript/JavaScript code. |
+| ![ESLint Plugin React Hooks](https://img.shields.io/badge/ESLint_plugin--react--hooks-61DAFB?style=for-the-badge&logo=react&logoColor=white) | Linting Plugin | Enforces best practices for React Hooks. |
+| ![ESLint Plugin React Refresh](https://img.shields.io/badge/ESLint_plugin--react--refresh-61DAFB?style=for-the-badge&logo=react&logoColor=white) | Linting Plugin | Ensures React Fast Refresh is properly configured. |
+| ![TypeScript Definitions for React](https://img.shields.io/badge/@types--react-61DAFB?style=for-the-badge&logo=typescript&logoColor=white) | Type Definitions    | Provides TypeScript definitions for React. |
+| ![TypeScript Definitions for ReactDOM](https://img.shields.io/badge/@types--react--dom-61DAFB?style=for-the-badge&logo=typescript&logoColor=white) | Type Definitions    | Provides TypeScript definitions for ReactDOM. |
+| ![Bootstrap](https://img.shields.io/badge/Bootstrap-7952B3?style=for-the-badge&logo=bootstrap&logoColor=white) | CSS Framework | Frontend framework for building responsive websites. |
+| ![gh-pages](https://img.shields.io/badge/gh--pages-deploy-blue?style=for-the-badge&logo=github) | Deployment Tool | Deploys your production build to GitHub Pages. |
+| ![Vite Plugin React SWC](https://img.shields.io/badge/@vitejs/plugin--react--swc-646CFF?style=for-the-badge&logo=vite&logoColor=white) | Vite Plugin | Enables React support in Vite using SWC. |
 
 
-| Library/Tool                                   | Category            | Purpose                                                                 |
-|------------------------------------------------|---------------------|-------------------------------------------------------------------------|
-| ![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB) | Frontend Framework  | Core JavaScript framework for building UI components.                   |
-| ![ReactDOM](https://img.shields.io/badge/ReactDOM-20232A?style=for-the-badge&logo=react&logoColor=61DAFB) | DOM Rendering        | Provides DOM-specific methods for React.                               |
-| ![Vite](https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white) | Build Tool          | Fast development server and build tool.                                |
-| ![ESLint](https://img.shields.io/badge/ESLint-4B32C3?style=for-the-badge&logo=eslint&logoColor=white) | Linting Tool        | Identifies and reports on patterns found in ECMAScript/JavaScript code. |
-| ![ESLint Plugin React Hooks](https://img.shields.io/badge/ESLint_plugin--react--hooks-61DAFB?style=for-the-badge&logo=react&logoColor=white) | Linting Plugin      | Enforces best practices for React Hooks.                               |
-| ![ESLint Plugin React Refresh](https://img.shields.io/badge/ESLint_plugin--react--refresh-61DAFB?style=for-the-badge&logo=react&logoColor=white) | Linting Plugin      | Ensures React Fast Refresh is properly configured.                      |
-| ![TypeScript Definitions for React](https://img.shields.io/badge/@types--react-61DAFB?style=for-the-badge&logo=typescript&logoColor=white) | Type Definitions    | Provides TypeScript definitions for React.                             |
-| ![TypeScript Definitions for ReactDOM](https://img.shields.io/badge/@types--react--dom-61DAFB?style=for-the-badge&logo=typescript&logoColor=white) | Type Definitions    | Provides TypeScript definitions for ReactDOM.                          |
-| ![Bootstrap](https://img.shields.io/badge/Bootstrap-7952B3?style=for-the-badge&logo=bootstrap&logoColor=white) | CSS Framework       | Frontend framework for building responsive websites.                   |
-| ![gh-pages](https://img.shields.io/badge/gh--pages-deploy-blue?style=for-the-badge&logo=github) | Deployment Tool     | Deploys your production build to GitHub Pages.                         |
-| ![Vite Plugin React SWC](https://img.shields.io/badge/@vitejs/plugin--react--swc-646CFF?style=for-the-badge&logo=vite&logoColor=white) | Vite Plugin         | Enables React support in Vite using SWC.                              |
+### 🧰 Programs & Tools Used
 
-
-### Programs
-
-
-- [Favicon](https://favicon.io/) - To create the favicon for the site.
-- [Balsamiq](https://balsamiq.com/) - For wireframes in readme.
-- [Git](https://git-scm.com/) - For version control.
-- [Google Dev Tools](https://developers.google.com/web/tools/chrome-devtools) - To troubleshoot and test features, solve issues with responsiveness and styling.
+| Program/Tool | Purpose |
+|----|----|
+| [Git](https://git-scm.com/) | Version control and collaboration |
+| [GitHub](https://github.com/) | Hosting the project and managing source code |
+| [Google Chrome DevTools](https://developers.google.com/web/tools/chrome-devtools) | Debugging, inspecting elements, and testing responsiveness |
+| [Favicon.io](https://favicon.io/) | Creating the site favicon |
+| [Figma](https://figma.com/) | Creating wireframes and visual assets |
+| [Balsamiq](https://balsamiq.com/) | Wireframe and mockup creation |
+| [JSHint](https://jshint.com/) | JavaScript code validation and linting |
+| [UI.dev](https://ui.dev/) | Displaying and testing layout across screen sizes |
+| Samsung Talkback | Accessibility testing on mobile devices |
 
 
 ### Testing and Validation Tools
