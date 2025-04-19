@@ -7,10 +7,10 @@
 By Alan, Anthony, Ieuan, Krish, and Melody
 
 
-[View the live project here.](-URL-)
+[View the live project here.](https://anthonyradose.github.io/dev-worthy/#home)
 
 
-This is the documentation for DevWorthy - an uplifting daily boost web app aimed towards combating imposter syndrome in aspiring web developers. The site has been built using HTML5, CSS3 with bootstrap templating, and ReactJS for the April 2025 Code Institute hackathon.
+This is the documentation for DevWorthy – a motivational web app designed to support aspiring developers in overcoming imposter syndrome. Built using ReactJS with JSX, Tailwind CSS for styling, and modern JavaScript practices, the site was developed as part of the April 2025 Code Institute Hackathon.
 
 
 ## Criteria
@@ -23,8 +23,6 @@ This is the documentation for DevWorthy - an uplifting daily boost web app aimed
 
 
 ******
-
-
 
 
 ## User Experience - UX
@@ -47,8 +45,6 @@ This project has been built as a collaborative project through [Code Institute](
  The aim is to create a site that spreads positive and uplifting messages that users can view daily to remind themselves that they are worthy of the goals they pursue.
 
 
-
-
 #### User Goals
 
 
@@ -66,18 +62,7 @@ This project has been built as a collaborative project through [Code Institute](
 ### Scope
 
 
-Taking all of the above into account we decided……
-
-
-- __Home Page:__ When users first navigate to the site they are taken to the index.html page, this provides users with an inspiring quote. Users can choose to add their quote to favourites or view a different quote.
-
-
-- __Favourites Page:__ Users can view their favourite quotes and remove them.
-
-
-- __Credits Page:__ Users can view information about the April 2025 hackathon team 4!
-
-
+The scope of DevWorthy was to create a clean, uplifting web app that delivers motivational content to developers experiencing imposter syndrome. The MVP focused on displaying daily affirmations, ensuring accessibility, responsiveness, and a positive user experience. Features such as user accounts, quote submissions, or personalization were considered out of scope for the hackathon timeframe but could be explored in future iterations. The project emphasized clean UI, mobile-first design, and showcasing modern frontend development tools within a short development sprint.
 
 
 <sup><sub>[*Back to top*](#devworthy)</sup></sub>
@@ -94,6 +79,14 @@ Taking all of the above into account we decided……
 
 As the purpose of the initial site is quite simple, the navigation route will be linear and will encourage users to view new quotes, view their favourite quotes, and view the dev team's information. This will be the order that the pages appear in the navigation bar along with interactive quote saving/removing and links within the content of the pages to encourage users to click over to the next area of the site.
 
+- __Home Page:__ When users first navigate to the site they are taken to the index.html page, this provides users with an inspiring quote. Users can choose to add their quote to favourites or view a different quote.
+
+
+- __Favourites Page:__ Users can view their favourite quotes and remove them.
+
+
+- __Credits Page:__ Users can view information about the April 2025 hackathon team 4!
+
 
 <sup><sub>[*Back to top*](#devworthy)</sup></sub>
 
@@ -108,8 +101,6 @@ As the purpose of the initial site is quite simple, the navigation route will be
 
 
 All wireframes have been created with [Balsamiq](https://balsamiq.com/).
-
-
 
 
 <sup><sub>[*Back to top*](#devworthy)</sup></sub>
@@ -145,8 +136,6 @@ Fonts have been imported from [Google Fonts](https://fonts.google.com/).
 The colour scheme for the site…
 
 
-
-
 Colour scheme images made with [coolers](https://coolors.co).
 
 
@@ -168,6 +157,7 @@ Colour scheme images made with [coolers](https://coolors.co).
 <img src="" alt="The favicon for the site, - -">
 
 
+Favicon generated with [Favicon.io](https://favicon.io/).
 
 
 #### Navbar
@@ -179,8 +169,6 @@ Colour scheme images made with [coolers](https://coolors.co).
 | Navigation links | These link to the site pages | |
 | Desktop navigation | This is how the navbar appears on desktop | |
 | Mobile navigation | This is how the navbar appears on mobile | |
-
-
 
 
 #### Footer
@@ -228,7 +216,20 @@ Colour scheme images made with [coolers](https://coolors.co).
 
 ## Future Implementations
 
+### 🚀 Future Implementations
 
+| Feature | Description |
+|----|----|
+| **Project Submission Form** | Allow users to submit their own project ideas or links for peer review. |
+| **User Authentication** | Enable user accounts to save favorites, submit content, or personalize the site. |
+| **Dark Mode Toggle** | Improve accessibility and UX with a light/dark theme switch. |
+| **Search & Filter** | Let users quickly find content via tags, categories, or keywords. |
+| **Blog or Articles Section** | Share tutorials, dev tips, or project breakdowns with a blog layout. |
+| **Tagging System** | Tag projects/posts by tech, topic, or difficulty, and filter by tags. |
+| **Admin Dashboard** | Manage user submissions, content, and reports efficiently. |
+| **PWA (Progressive Web App)**| Allow the site to work offline and be installable on mobile/desktop. |
+| **Accessibility Enhancements** | Add ARIA roles, improve keyboard navigation, and screen reader support. |
+| **Multilingual Support** | Implement i18n for broader accessibility across languages. |
 
 
 <sup><sub>[*Back to top*](#devworthy)</sup></sub>
@@ -333,14 +334,13 @@ Fonts have been chosen for their simple style, promoting easy reading.
 | Samsung Talkback | Accessibility testing on mobile devices |
 
 
-### Testing and Validation Tools
+### 🧪 Testing and Validation Tools
 
-
-- Samsung Talkback - To test accessibility.
-
-
-- [UI.dev](https://ui.dev/amiresponsive) - To show the site on a range of screen sizes.
-- [W3C Markup Validation Service](https://validator.w3.org/) - To validate HTML and CSS code.
+| Tool/Service | Purpose |
+|----|----|
+| ![Samsung Talkback](https://img.shields.io/badge/Samsung_Talkback-077ABC?style=for-the-badge&logo=samsung&logoColor=white) | To test accessibility features on mobile devices. |
+| [![UI.dev](https://img.shields.io/badge/UI.dev--Am_I_Responsive%3F-000?style=for-the-badge&logo=google-chrome&logoColor=white)](https://ui.dev/amiresponsive) | To preview the site across a range of screen sizes. |
+| [![W3C Validator](https://img.shields.io/badge/W3C_Validation-HTML%2FCSS-005A9C?style=for-the-badge&logo=w3c&logoColor=white)](https://validator.w3.org/) | To validate the site's HTML and CSS for standards compliance. |
 
 
 <sup><sub>[*Back to top*](#devworthy)</sup></sub>
@@ -383,109 +383,61 @@ You can clone the repository by following these steps:
 7. Press Enter to create your local clone.
 
 
-
-
 <sup><sub>[*Back to top*](#devworthy)</sup></sub>
 
 
-
-
 -----
-
-
 
 
 ## Testing
 
 
-
-
 Please see [TESTING.md](TESTING.md) for all testing elements of this site.
 
 
-
-
 <sup><sub>[*Back to top*](#devworthy)</sup></sub>
-
-
 
 
 -----
 
 
-
-
 ## Credits
-
-
 
 
 ### Code Used
 
 
-
-
 ### Content
-
-
 
 
 ### Media
 
 
-
-
 * [UI.dev](https://ui.dev/amiresponsive): Used to generate images that showcase the responsive design within the readme file.
-
-
 
 
 ### Acknowledgements
 
+This site was created by:
 
-
-
-
-
-
-
-
-
-
+- [Alan](https://github.com/llancruzz)
+- [Anthony](https://github.com/anthonyradose)
+- [Ieuan](https://github.com/IeuanPriede)
+- [Krish](https://github.com/kslg)
+- [Melody](https://github.com/Melody-Lisa)
 
 <sup><sub>[*Back to top*](#devworthy)</sup></sub>
 
 
-
-
-
-
-
-
 # React + Vite
-
-
-
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-
-
-
 Currently, two official plugins are available:
-
-
-
 
 - [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
 - [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-
-
-
 ## Expanding the ESLint configuration
-
-
-
 
 If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
