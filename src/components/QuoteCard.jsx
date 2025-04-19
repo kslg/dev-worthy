@@ -51,11 +51,13 @@ const QuoteCard = () => {
             </>
           )}
         </div>
-        <div className={styles['button-box']}>
-          <button onClick={fetchQuote}>Get New Quote</button>
+        <div className={styles["button-box"]}>
+          <button onClick={fetchQuote}>
+            <i class="bi bi-arrow-repeat"></i> Get New Quote
+          </button>
 
           <button onClick={saveToFavourites} disabled={loading}>
-            Save to Favourites
+            <i class="bi bi-heart"></i> Save to Favourites
           </button>
         </div>
       </section>
