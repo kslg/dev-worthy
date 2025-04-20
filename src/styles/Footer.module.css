@@ -42,3 +42,9 @@
     font-size: 0.75rem;
   }
 }
+
+@media (max-width: 1400px) {
+  .footer {
+    padding: 1rem;
+  }
+}
