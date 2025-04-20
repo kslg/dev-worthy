@@ -100,8 +100,8 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    width: 20px;
-    height: 18px;
+    width: 40px;
+    height: 30px;
   }
   
   .customTogglerIcon span {
@@ -109,5 +109,9 @@
     width: 100%;
     background-color: #FEBD36;
     border-radius: 1px;
+  }
+
+  button:hover {
+    background-color: none !important;
   }
 }
