@@ -111,3 +111,9 @@ h2 {
     padding: 0;
   }
 }
+
+@media (max-width: 1400px) {
+  .container-main {
+    padding: 0rem;
+  }    
+}
