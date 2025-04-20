@@ -86,6 +86,16 @@ button:hover {
   text-align: center;
 }
 
+h1,
+h2 {
+  color: #febd36;
+  font-size: 2.5rem;
+  margin-top: 2rem;
+  font-weight: 700;
+  font-family: "Poppins", sans-serif;
+  text-align: center;
+}
+
 /* Media query for tablets and smaller screens */
 @media (max-width: 768px) {
   .section-app {
