@@ -7,6 +7,7 @@ import Footer from "./components/Footer.jsx";
 import QuoteCard from "./components/QuoteCard.jsx";
 import Credits from "./pages/Credits.jsx";
 import Favourites from "./pages/Favourites.jsx";
+import NotFound from "./pages/NotFound.jsx";
 
 function App() {
   return (
@@ -30,6 +31,7 @@ function App() {
           <Route path="/" element={<QuoteCard />} />
           <Route path="about" element={<Credits />} />
           <Route path="favourites" element={<Favourites />} />
+          <Route path="*" element={<NotFound />} /> {/* <-- This is the 404 route */}
         </Routes>
       </main>
       <Footer />
