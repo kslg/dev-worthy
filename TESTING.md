@@ -2,9 +2,9 @@
 
 [Back to README.md](README.md)
 
-<img src="" alt="An image representing how the site looks across different devices of varying size.">
+[<img src="src/assets/images/devworthy_amiresponsive_whole.png" alt="An image representing how the site looks across different devices of varying size.">](https://anthonyradose.github.io/dev-worthy/#home)
 
-[View the live project here.]()
+[View the live project here.](https://anthonyradose.github.io/dev-worthy/#home)
 
 Manual testing was conducted continuously throughout the development process to ensure the functionality of various features across the site.
 
@@ -12,21 +12,53 @@ Manual testing was conducted continuously throughout the development process to 
 
 ## AUTOMATED TESTING
 
-### W3C Validator
+### ✅ W3C Validator
 
 [W3C](https://validator.w3.org/) was used to validate the HTML on all pages of the site along with validation of CSS.
 
-<details><summary>Index HTML</summary>
-<img src="" alt="No Errors found.">
+<details>
+  <summary><strong>Index HTML: No Errors ✅</strong></summary>
+  <br>
+  <img src="src/assets/images/devworthy_w3_index.png" alt="No Errors found." style="border: 2px solid #ccc; border-radius: 8px; max-width: 100%;">
 </details>
 
-<details><summary>Credits</summary>
-<img src="" alt="No Errors found.">
+<details>
+  <summary><strong>404 HTML: No Errors ✅</strong></summary>
+  <br>
+  <img src="src/assets/images/devworthy_w3_404.png" alt="No Errors found." style="border: 2px solid #ccc; border-radius: 8px; max-width: 100%;">
 </details>
 
-<details><summary>CSS</summary>
-<img src="" alt="No errors.">
+>
+> #### 404 Testing notes
+>At the time of testing there were elements of CSS and JS within the file.
+>The HTML ONLY was tested here.
+>The separation and integration of separate styling and script files may need to be implemented in >future, due to time constraints.
+>
+
+<details><summary><strong>Credits.module.css: No Errors ✅</strong></summary>
+<img src="src/assets/images/devworthy_w3_css_creditsmodule.png" alt="No Errors found.">
 </details>
+
+<details><summary><strong>Favorites.module.css: 🚧 TO BE COMPLETED 🚧</strong></summary>
+<img src="src/assets/images/devworthy_w3_css_favoritesmodule.png" alt="No Errors found.">
+</details>
+
+<details><summary><strong>Footer.module.css: No Errors ✅</strong></summary>
+<img src="src/assets/images/devworthy_w3_css_footermodule.png" alt="No Errors found.">
+</details>
+
+<details><summary><strong>Navbar.module.css: 🚧 TO BE COMPLETED 🚧</strong></summary>
+<img src="src/assets/images/devworthy_w3_css_navbarmodule.png" alt="No Errors found.">
+</details>
+
+<details><summary><strong>QuoteCard.module.css: No Errors ✅</strong></summary>
+<img src="src/assets/images/devworthy_w3_css_quotecardmodule.png" alt="No Errors found.">
+</details>
+
+<details><summary><strong>index.css: No Errors ✅</strong></summary>
+<img src="src/assets/images/devworthy_w3_css_index.png" alt="No Errors found.">
+</details>
+
 
 <sup><sub>[*Back to top*](#devworthy-testing)</sup></sub>
 

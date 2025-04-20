@@ -252,16 +252,17 @@ Quotes are fetched using the `fetch()` function, and the component’s state is 
 | __View team 4__ | User can view members of the team! |
 | __View team links__ | User can flip a team member's card to view their socials |
 
+#### 404
+
+<img src="src/assets/images/devworthy_404.png" alt="An image representing how the 404 page looks across different devices of varying size.">
+
 
 <sup><sub>[*Back to top*](#devworthy)</sup></sub>
 
 
 ------
 
-
-## Future Implementations
-
-### 🚀 Future Implementations
+## 🚀 Future Implementations
 
 | Feature | Description |
 |----|----|
@@ -458,40 +459,49 @@ Please see [TESTING.md](TESTING.md) for all testing elements of this site.
 -----
 
 
-## Credits
+## 🏆 Credits & Acknowledgements
 
+### 🔧 Code Used
 
-### Code Used
+* **[Quote Generator Walkthrough](https://github.com/codingWithElias/react-random-quote-generator)** – A guide for creating a dynamic quote generator with React.
+* **[Video Header](https://jsfiddle.net/StartBootstrap/enajc82d/)** – A customizable video header template to enhance the UI.
 
-* [Quote Generator Walkthrough](https://github.com/codingWithElias/react-random-quote-generator)
-* [Video Header](https://jsfiddle.net/StartBootstrap/enajc82d/)
+---
 
-### Content
+### 💡 APIs Implemented
 
-API's have been implemented to generate the affirmations and dev tips:
+We've integrated some awesome APIs for your daily dose of inspiration and dev tips:
 
-* [Affirmation Quotes API](https://github.com/well300/quotes-api)
-* [Dev Tips API](https://github.com/OmerMohideen/programming-quotes-api)
+* **[Affirmation Quotes API](https://github.com/well300/quotes-api)** – Get a random affirmation quote to boost your spirits.
+* **[Dev Tips API](https://github.com/OmerMohideen/programming-quotes-api)** – Handy programming quotes to keep your code game strong.
 
-* [Favicon.io](https://favicon.io/) has been used to generate the favicon.
-* [Google Fonts](https://fonts.google.com/)
+---
 
+### 🎨 Design & Content
 
-### Media
+* **[Favicon.io](https://favicon.io/)** – Used to create the perfect custom favicons for the site.
+* **[Google Fonts](https://fonts.google.com/)** – Offering stylish fonts that enhance readability and appeal.
 
-* [UI.dev](https://ui.dev/amiresponsive): Used to generate images that showcase the responsive design within the readme file.
-* [ChatGPT](https://chat.openai.com/): Used to generate the logo.
-* [Bootstrap Icons](https://icons.getbootstrap.com/): For the site's iconography.
+---
 
+### 📸 Media
 
-### Acknowledgements
+* **[UI.dev - AmiResponsive](https://ui.dev/amiresponsive)** – Showcasing the site's responsive design with sleek device mockups.
+* **[ChatGPT](https://chat.openai.com/)** – Helped generate the logo, adding a creative touch to our project.
+* **[Bootstrap Icons](https://icons.getbootstrap.com/)** – Providing icons that bring life and clarity to the interface.
 
-This site was created by:
+---
 
-- [Alan](https://github.com/llancruzz)
-- [Anthony](https://github.com/anthonyradose)
-- [Ieuan](https://github.com/IeuanPriede)
-- [Krish](https://github.com/kslg)
-- [Melody](https://github.com/Melody-Lisa)
+### 🙏 Special Thanks
+
+A huge shoutout to our team for all the effort and dedication in bringing **DevWorthy** to life:
+
+- [**Alan**](https://github.com/llancruzz) – The visionary behind the app’s design and overall concept, with significant contributions to the UX to ensure a seamless user experience.
+- [**Anthony**](https://github.com/anthonyradose) – The dev guru who shaped logic and functionality, handled API integration, did extensive debugging, and ensured everything was working smoothly.
+- [**Ieuan**](https://github.com/IeuanPriede) – The architect of the user interface, responsible for design and structuring of pages.
+- [**Krish**](https://github.com/kslg) – The wizard who worked on API integration, ensuring smooth interaction with external services.
+- [**Melody**](https://github.com/Melody-Lisa) – Scrum Master, keeping the team on track, and managing the majority of the documentation throughout the project.
+
+---
 
 <sup><sub>[*Back to top*](#devworthy)</sup></sub>
