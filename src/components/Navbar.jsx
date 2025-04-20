@@ -2,6 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 
 import styles from "../styles/Navbar.module.css";
+import logo from "../assets/images/dev-worthy-logo.png";
 
 const NavBar = () => {
   return (
@@ -12,7 +13,7 @@ const NavBar = () => {
           to="/"
         >
           <img
-            src="src/assets/images/dev-worthy-logo.png"
+            src={logo}
             className={`me-2 ${styles.logo} `}
           />
           <span className={`${styles.brandText}`}>Dev Worthy</span>
