@@ -1,5 +1,6 @@
 import React from "react";
 import { FaGithub, FaLinkedin } from "react-icons/fa";
+import styles from "../styles/Credits.module.css";
 
 
 const team = [
@@ -45,41 +46,19 @@ const team = [
 const Credits = () => {
   return (
     <>
-      <main className="credits-container" style={{ padding: "2rem" }}>
-        <h1>Team Credits</h1>
-        <div className="team-grid" style={{ display: "flex", flexWrap: "wrap", gap: "1.5rem", justifyContent: "center", }}>
+      <main className={styles.creditsContainer}>
+        <h1 className={styles.heading}>Team Credits</h1>
+        <div className={styles.teamGrid}>
           {team.map((member, index) => (
-            <div
-              key={index}
-              className="card"
-              style={{
-                border: "1px solid #ccc",
-                borderRadius: "12px",
-                padding: "1rem",
-                width: "220px", // Set fixed width
-                minHeight: "320px", // Ensure consistent height
-                textAlign: "center",
-                boxShadow: "0 4px 6px rgba(0, 0, 0, 0.1)",
-                display: "flex",
-                flexDirection: "column",
-                alignItems: "center",
-                justifyContent: "space-between", // Push content apart nicely
-              }}
-            >
+            <div key={index} className={styles.card}>
               <img
                 src={member.image}
                 alt={`${member.name}'s avatar`}
-                style={{ 
-                  display: "block",              // Makes margin auto work
-                  margin: "0 auto",              // Centers horizontally
-                  borderRadius: "50%",
-                  width: "100px",
-                  height: "100px",
-                  objectFit: "cover", }}
+                className={styles.avatar}
               />
-              <h3 style={{ margin: "0.5rem 0 0.25rem" }}>{member.name}</h3>
-              <p style={{ marginBottom: "0.75rem", color: "#555" }}>{member.role}</p>
-              <div style={{ display: "flex", justifyContent: "center", gap: "1rem" }}>
+              <h3 className={styles.name}>{member.name}</h3>
+              <p className={styles.role}>{member.role}</p>
+              <div className={styles.links}>
                 <a href={member.linkedin} target="_blank" rel="noopener noreferrer">
                   <FaLinkedin size={24} color="#0077b5" />
                 </a>
