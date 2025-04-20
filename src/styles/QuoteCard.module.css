@@ -29,8 +29,8 @@
   font-size: 1rem;
   font-family: inherit;
   cursor: pointer;
-  background-color: #FEFAE6;
-  border: 2px solid #024E69;
+  background-color: #fefae6;
+  border: 2px solid #024e69;
   border-radius: 8px;
   transition: background-color 0.3s ease, transform 0.2s ease;
 }
@@ -42,10 +42,9 @@
 }
 
 .button-group .active {
-  background-color: #024E69;
+  background-color: #024e69;
   color: #fff;
 }
-
 
 .quote-title {
   color: #febd36;
@@ -60,11 +59,21 @@
   font-size: 1.5rem;
   font-style: italic;
   margin-bottom: 1rem;
-  color: #024E69;
+  color: #024e69;
 }
 
 .author {
   font-size: 1.1rem;
   font-weight: bold;
-  color: #024E69;
+  color: #024e69;
+}
+
+/* Media query for mobiles and smaller screens */
+@media (max-width: 545px) {
+
+  .button-group,
+  .button-box {
+    display: flex;
+    flex-direction: column;
+  }
 }
