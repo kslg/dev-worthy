@@ -225,7 +225,8 @@ Full testing was performed on the following devices:
 
 ### Accessibility Testing
 
-Accessibility has been tested via narrator for windows and talkback on android…
+Accessibility was tested using TalkBack on Android. The site is fully navigable with a screen reader, and key features are accessible and readable.
+
 
 <sup><sub>[*Back to top*](#devworthy-testing)</sup></sub>
 
