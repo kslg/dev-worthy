@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import { Alert, Button, Modal } from "react-bootstrap";
+import { Alert, Button, Modal, Carousel } from "react-bootstrap";
 import styles from "../styles/Favorites.module.css";
 
 const Favourites = () => {
@@ -43,21 +43,31 @@ const Favourites = () => {
           No favourites yet <i class="bi bi-emoji-frown"></i>
         </p>
       ) : (
-        favourites.map((quote, index) => (
-          <div key={index} className={styles["quote-box"]}>
-            <h2 className={styles["quote-title"]}>Favourite Quote</h2>
-            <p className={styles.quote}>
-              <i className="bi bi-chat"></i> "{quote.quote}"
-            </p>
-            <p className={styles.author}>— {quote.author}</p>
-            <button
-              className={styles["btn-remove"]}
-              onClick={() => confirmRemove(quote)}
-            >
-              Remove
-            </button>
-          </div>
-        ))
+        <Carousel
+          className={styles["quote-carousel"]}
+          interval={null} // disable auto-slide
+          indicators={favourites.length > 1}
+          nextLabel=""
+          prevLabel=""
+        >
+          {favourites.map((quote, index) => (
+            <Carousel.Item key={index}>
+              <div key={index} className={styles["quote-box"]}>
+                <h2 className={styles["quote-title"]}>Favourite Quote</h2>
+                <p className={styles.quote}>
+                  <i className="bi bi-chat"></i> "{quote.quote}"
+                </p>
+                <p className={styles.author}>— {quote.author}</p>
+                <button
+                  className={styles["btn-remove"]}
+                  onClick={() => confirmRemove(quote)}
+                >
+                  Remove
+                </button>
+              </div>
+            </Carousel.Item>
+          ))}
+        </Carousel>
       )}
 
       <Modal show={showModal} onHide={() => setShowModal(false)} centered>
