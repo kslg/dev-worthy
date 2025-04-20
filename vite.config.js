@@ -15,5 +15,10 @@ export default defineConfig({
   optimizeDeps: {
     // Ensure polyfill is bundled into the final build
     include: ['crypto-browserify']
-  }
+  },
+  test: {
+    globals: true,
+    environment: 'jsdom',
+    setupFiles: './src/setupTests.js',
+  },
 })
