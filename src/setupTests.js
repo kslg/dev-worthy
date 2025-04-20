@@ -1,0 +1,1 @@
+import '@testing-library/jest-dom'; // To add custom matchers (like `toBeInTheDocument` for example)
