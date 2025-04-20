@@ -113,7 +113,7 @@ const QuoteCard = () => {
 
       <div className={styles["quote-box"]}>
         {loading ? (
-          <p>Loading...</p>
+          <div className={styles.loader}></div>
         ) : (
           <div>
             <p className={styles.quote}>"{quote?.quote}"</p>
