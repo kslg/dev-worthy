@@ -27,7 +27,11 @@ const NavBar = () => {
           aria-expanded="false"
           aria-label="Toggle navigation"
         >
-          <span className={`navbar-toggler-icon ${styles.togglerIcon}`}></span>
+          <div className={styles.customTogglerIcon}>
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
         </button>
         <div
           className="collapse navbar-collapse justify-content-end"
