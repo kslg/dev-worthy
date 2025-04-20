@@ -1,10 +1,16 @@
 import React, { useEffect, useState } from "react";
 import styles from "../styles/QuoteCard.module.css";
+import { Alert } from "react-bootstrap";
 
 const QuoteCard = () => {
   const [quote, setQuote] = useState(null);
   const [loading, setLoading] = useState(true);
   const [quoteType, setQuoteType] = useState("life");
+  const [alert, setAlert] = useState({
+    show: false,
+    message: "",
+    variant: "success",
+  });
 
   // Function to fetch the quote
   const fetchQuote = async () => {
@@ -55,9 +61,19 @@ const QuoteCard = () => {
 
     if (!isDuplicate) {
       localStorage.setItem("favourites", JSON.stringify([...existing, quote]));
-      alert("Quote saved to favourites!");
+      setAlert({
+        show: true,
+        message: "Quote saved to favourites!",
+        variant: "success",
+      });
+      setTimeout(() => setAlert((prev) => ({ ...prev, show: false })), 3000);
     } else {
-      alert("Quote is already in favourites.");
+      setAlert({
+        show: true,
+        message: "Quote is already in favourites.",
+        variant: "warning",
+      });
+      setTimeout(() => setAlert((prev) => ({ ...prev, show: false })), 3000);
     }
   };
 
@@ -67,6 +83,15 @@ const QuoteCard = () => {
 
   return (
     <section className="section-app container">
+      {alert.show && (
+        <Alert
+          variant={alert.variant}
+          onClose={() => setAlert({ ...alert, show: false })}
+          dismissible
+        >
+          {alert.message}
+        </Alert>
+      )}
       <h1 className={styles["quote-title"]}>Random Quote Generator</h1>
 
       <div className={styles["button-group"]}>
@@ -108,4 +133,3 @@ const QuoteCard = () => {
 };
 
 export default QuoteCard;
-
