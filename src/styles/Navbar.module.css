@@ -61,3 +61,21 @@
 .togglerIcon:hover {
   background-color: #FEFAE6;
 }
+
+@media (max-width: 768px) {
+  .nav-links {
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    display: none; /* hidden until menu icon is clicked */
+  }
+
+  .navbar {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .burger-menu {
+    display: block; /* show burger icon */
+  }
+}
