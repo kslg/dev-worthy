@@ -33,3 +33,16 @@ button {
 button:hover {
   background-color: #fe8664;
 }
+
+/* Media query for tablets and smaller screens */
+@media (max-width: 768px) {
+  .section-app {
+    height: auto;
+    padding: 1rem;
+  }
+
+  button {
+    width: 100%;
+    font-size: 1.1rem;
+  }
+}
