@@ -114,3 +114,50 @@
   border-radius: 50%;
   padding: 10px;
 }
+
+/* 🎯 Mobile Responsiveness */
+@media (max-width: 768px) {
+  .quote-carousel {
+    max-width: 95%;
+    padding: 0.5rem;
+    margin: 1rem auto;
+    border-radius: 1rem;
+  }
+
+  .quote-box {
+    padding: 1.5rem 1rem;
+    margin: 1rem 0;
+  }
+
+  .quote-title {
+    font-size: 1.4rem;
+  }
+
+  .quote {
+    font-size: 1.1rem;
+    padding: 0 0.5rem;
+  }
+
+  .author {
+    font-size: 0.95rem;
+  }
+
+  .btn-remove {
+    font-size: 0.9rem;
+    padding: 0.5rem 1rem;
+  }
+
+  .modal-box {
+    font-size: 1.1rem;
+    padding: 0.75rem;
+  }
+
+  .modal-header {
+    font-size: 1.3rem;
+  }
+
+  .no-favorite {
+    font-size: 1.5rem;
+    margin: 3rem;
+  }
+}
