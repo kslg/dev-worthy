@@ -193,8 +193,45 @@ Favicon generated with [Favicon.io](https://favicon.io/) using the logo image fo
 | Feature | Description | Image |
 | :---: | :---: | :---: |
 | Daily Quote | User can view a daily inspirational quote | |
+| Dev Tips | User can view a dev tip to boost motivation | |
 | Add to favourites | User can add quote to the favourites page | |
 | Generate new quote | User can generate a new quote | |
+
+
+##### Feature App - Quote Generator
+
+A simple quote generator app built using **Vite** and **React.js** that displays affirmation quotes from an external API. Quotes are selected at random when the user clicks the button.
+
+---
+
+###### 🔧 Features & Functionality
+
+- **User Interface:** Built with React and Vite for a fast, responsive experience.
+- **Random Quotes:** On button click, a new quote is fetched and displayed.
+- **Loading/Error States:** Handles loading and API errors gracefully.
+
+---
+
+###### 🧠 React Concepts Used
+
+ `useState`
+`useState` is a React hook that allows you to add state (data that changes over time) to functional components.
+
+It’s used to:
+- Remember values between renders
+- Store user input, counters, or fetched data
+
+---
+
+###### 🔄 Fetching Quotes from the API
+
+Quotes are fetched using the `fetch()` function, and the component’s state is updated using `setQuote()`.
+
+>```js
+>const response = await fetch('https://api.example.com/quote');
+>const data = await response.json();
+>setQuote(data);
+>
 
 
 #### Favourites
@@ -441,6 +478,8 @@ API's have been implemented to generate the affirmations and dev tips:
 ### Media
 
 * [UI.dev](https://ui.dev/amiresponsive): Used to generate images that showcase the responsive design within the readme file.
+* [ChatGPT](https://chat.openai.com/): Used to generate the logo.
+* [Bootstrap Icons](https://icons.getbootstrap.com/): For the site's iconography.
 
 
 ### Acknowledgements
