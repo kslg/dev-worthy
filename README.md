@@ -266,7 +266,6 @@ Quotes are fetched using the `fetch()` function, and the component’s state is 
 
 | Feature | Description |
 |----|----|
-| **Improve styling across the site** | Adding video backgrounds to create a more modern site. |
 | **Quote Submission Form** | Allow users to submit their own quotes. |
 | **User Authentication** | Enable user accounts to save favorites, submit content, or personalize the site. |
 | **Dark Mode Toggle** | Improve accessibility and UX with a light/dark theme switch. |
