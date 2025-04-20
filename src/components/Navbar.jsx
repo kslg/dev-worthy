@@ -45,12 +45,12 @@ const NavBar = () => {
               </Link>
             </li>
             <li className="nav-item">
-              <Link className={styles.navLink} to="about">
+              <Link className={styles.navLink} to="/about">
                 About
               </Link>
             </li>
             <li className="nav-item">
-              <Link className={styles.navLink} to="favourites">
+              <Link className={styles.navLink} to="/favourites">
                 Favourites
               </Link>
             </li>
