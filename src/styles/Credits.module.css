@@ -1,56 +1,127 @@
 .creditsContainer {
-    padding: 2rem;
+  padding: 2rem;
+}
+
+.teamGrid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+  justify-content: center;
+}
+
+.card {
+  animation: fadeInUp 0.5s ease forwards;
+  animation-delay: 0.1s;
+  opacity: 0;
+  perspective: 1000px;
+  width: 220px;
+  height: 320px;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.avatar {
+  display: block;
+  margin: 0 auto;
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+}
+
+.name {
+  margin: 0.5rem 0 0.25rem;
+  color: #024E69;
+  font-weight: 500;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.4)
+}
+
+.role {
+  margin-bottom: 0.75rem;
+  color: #024E69;
+  font-weight: 700;
+  font-style: italic;
+}
+
+.links {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.links a:hover {
+  transform: scale(1.1);
+  transition: transform 0.2s ease;
+}
+
+.links a:hover svg {
+  filter: brightness(1.2);
+}
+
+.heading {
+  color: #febd36;
+  text-align: center;
+  margin-bottom: 4rem;
+}
+
+.cardInner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  transition: transform 0.6s;
+  transform-style: preserve-3d;
+}
+
+.card:hover .cardInner {
+  transform: rotateY(180deg);
+}
+
+.cardFront,
+.cardBack {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border: 1px solid #ccc;
+  border-radius: 12px;
+  padding: 1rem;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  background: rgba(254, 250, 230, 0.6);
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  backface-visibility: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.cardFront {
+  z-index: 2;
+}
+
+.cardBack {
+  transform: rotateY(180deg);
+}
+
+.cardBack h4 {
+  margin-bottom: 1rem;
+  color: #024E69;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.4);
+}
+
+@keyframes fadeInUp {
+  0% {
+    opacity: 0;
+    transform: translateY(20px);
   }
-  
-  .teamGrid {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 1.5rem;
-    justify-content: center;
+
+  100% {
+    opacity: 1;
+    transform: translateY(0);
   }
-  
-  .card {
-    border: 1px solid #ccc;
-    border-radius: 12px;
-    padding: 1rem;
-    width: 220px;
-    min-height: 320px;
-    text-align: center;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-between;
-    background-color: #FEFAE6;
-  }
-  
-  .avatar {
-    display: block;
-    margin: 0 auto;
-    border-radius: 50%;
-    width: 100px;
-    height: 100px;
-    object-fit: cover;
-  }
-  
-  .name {
-    margin: 0.5rem 0 0.25rem;
-    color: #febd36;
-  }
-  
-  .role {
-    margin-bottom: 0.75rem;
-    color: #555;
-  }
-  
-  .links {
-    display: flex;
-    justify-content: center;
-    gap: 1rem;
-  }
-  
-  .heading {
-    color: #febd36;
-    text-align: center;
-    margin-bottom: 4rem;
-  }
+}
