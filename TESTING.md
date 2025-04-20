@@ -84,22 +84,39 @@ The site has been tested for accessibility with [WAVE](https://wave.webaim.org).
 
 ## Manual Testing
 
+### Testing Project Criteria
+
+>#### Criteria
+>
+>1) The team has built one of the 5 suggested projects
+>2) The team has innovated on their choice of project
+>3) The project is fully responsive
+>4) The project is well planned using github projects or other issues board
+
+
+| Criteria | Description | Image |
+| :----: | :----: | :----: |
+| 1) The team has built one of the 5 suggested projects | The chosen project was the daily boost app | |
+| 2) The team has innovated on their choice of project | The team has innovated in the build of the app, using react and implementing API's to generate content | |
+| 3) The project is fully responsive | Project is usable and appealing across all screen sizes | |
+| 4) The project is well planned using github projects or other issues board | Github projects has been used throughout | |
+
 ### Testing User Stories
 
 >#### User Goals
 >
->
->
->
->
->
+>- View inspiring quotes
+>- View coding tips and tricks
+>- Save quotes to favourites
+>- View information about the team
 >
 
 | Goal | Implementation | Image |
 | :---: | :---: | :---: |
-| | | |
-| | | |
-| | | |
+| View Inspiring quotes | Quotes can be viewed on the main page | |
+| View coding tips and tricks | Coding tips can be viewed on the main page | |
+| Save quotes to favourites | Quotes can be saves from the quotes page and viewed on the favourites page | |
+| View information about the team | Team info can be found on the about us page | |
 
 <sup><sub>[*Back to top*](#devworthy-testing)</sup></sub>
 

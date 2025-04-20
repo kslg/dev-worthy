@@ -49,8 +49,9 @@ This project has been built as a collaborative project through [Code Institute](
 
 
 - View inspiring quotes
-- View coding tips and tricks --tbc
+- View coding tips and tricks
 - Save quotes to favourites
+- View information about the team
 
 
 <sup><sub>[*Back to top*](#devworthy)</sup></sub>
@@ -77,15 +78,15 @@ The scope of DevWorthy was to create a clean, uplifting web app that delivers mo
 #### Site Structure
 
 
-As the purpose of the initial site is quite simple, the navigation route will be linear and will encourage users to view new quotes, view their favourite quotes, and view the dev team's information. This will be the order that the pages appear in the navigation bar along with interactive quote saving/removing and links within the content of the pages to encourage users to click over to the next area of the site.
+As the purpose of the initial site is quite simple, the navigation route will be linear and will encourage users to view new quotes, view the dev team's information, and view their favourite quotes. This will be the order that the pages appear in the navigation bar along with interactive quote saving/removing and links within the content of the pages to encourage users to click over to the next area of the site.
 
 - __Home Page:__ When users first navigate to the site they are taken to the index.html page, this provides users with an inspiring quote. Users can choose to add their quote to favourites or view a different quote.
 
 
-- __Favourites Page:__ Users can view their favourite quotes and remove them.
-
-
 - __Credits Page:__ Users can view information about the April 2025 hackathon team 4!
+
+
+- __Favourites Page:__ Users can view their favourite quotes and remove them.
 
 
 <sup><sub>[*Back to top*](#devworthy)</sup></sub>
@@ -129,7 +130,7 @@ The design of the site has been implemented using [Bootstrap](https://getbootstr
 Fonts have been imported from [Google Fonts](https://fonts.google.com/).
 
 
-[Poppins:](https://fonts.google.com/specimen/Poppins)
+[Poppins:](https://fonts.google.com/specimen/Poppins) This geometric sans-serif font is used for headers and titles due to its modern, stylish appearance and strong visual presence. Its clean lines and bold weights make it ideal for grabbing attention while maintaining clarity and professionalism.
 
 
 [Roboto:](https://fonts.google.com/specimen/Roboto?query=roboto) This sans-serif font is used for the main body text due to its clean, modern look and excellent readability, especially on mobile devices and at small sizes.
@@ -159,10 +160,10 @@ Colour scheme images made with [coolers](https://coolors.co).
 #### Favicon
 
 
-<img src="" alt="The favicon for the site, - -">
+<img src="src/assets/images/DevWorthy_favicon.png" alt="Favicon" width="200"/>
 
 
-Favicon generated with [Favicon.io](https://favicon.io/).
+Favicon generated with [Favicon.io](https://favicon.io/) using the logo image for the site.
 
 
 #### Navbar
@@ -170,7 +171,7 @@ Favicon generated with [Favicon.io](https://favicon.io/).
 
 | Feature | Description | Image |
 | :---: | :---: | :---: |
-| Brand logo | The brand logo acts as navigation back to the homepage | |
+| Brand logo | The brand logo acts as navigation back to the homepage | <img src="src/assets/images/dev-worthy-logo.png" alt="Favicon" width="200"/> |
 | Navigation links | These link to the site pages | |
 | Desktop navigation | This is how the navbar appears on desktop | |
 | Mobile navigation | This is how the navbar appears on mobile | |
@@ -225,14 +226,11 @@ Favicon generated with [Favicon.io](https://favicon.io/).
 
 | Feature | Description |
 |----|----|
-| **Project Submission Form** | Allow users to submit their own project ideas or links for peer review. |
+| **Improve styling across the site** | Adding video backgrounds to create a more modern site. |
+| **Quote Submission Form** | Allow users to submit their own quotes. |
 | **User Authentication** | Enable user accounts to save favorites, submit content, or personalize the site. |
 | **Dark Mode Toggle** | Improve accessibility and UX with a light/dark theme switch. |
 | **Search & Filter** | Let users quickly find content via tags, categories, or keywords. |
-| **Blog or Articles Section** | Share tutorials, dev tips, or project breakdowns with a blog layout. |
-| **Tagging System** | Tag projects/posts by tech, topic, or difficulty, and filter by tags. |
-| **Admin Dashboard** | Manage user submissions, content, and reports efficiently. |
-| **PWA (Progressive Web App)**| Allow the site to work offline and be installable on mobile/desktop. |
 | **Accessibility Enhancements** | Add ARIA roles, improve keyboard navigation, and screen reader support. |
 | **Multilingual Support** | Implement i18n for broader accessibility across languages. |
 
@@ -367,7 +365,7 @@ By forking the GitHub Repository, we make a copy of the original repository on o
 You can fork this repository by using the following steps:
 
 
-1. Log in to GitHub and locate the [GitHub Repository]()
+1. Log in to GitHub and locate the [GitHub Repository](https://github.com/anthonyradose/dev-worthy)
 2. At the top of the Repository (not top of page) just above the "Settings" Button on the menu, locate the "Fork" Button.
 3. Once clicked, you should now have a copy of the original repository in your own GitHub account!
 
@@ -378,7 +376,7 @@ You can fork this repository by using the following steps:
 You can clone the repository by following these steps:
 
 
-1. Go to the [GitHub repository]()
+1. Go to the [GitHub repository](https://github.com/anthonyradose/dev-worthy)
 2. Locate the Code button above the list of files and click it
 3. Select if you prefer to clone using HTTPS, SSH, or GitHub CLI and click the copy button to copy the URL to your clipboard
 4. Open Git shell or Terminal
