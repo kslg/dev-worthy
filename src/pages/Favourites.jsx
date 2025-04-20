@@ -40,7 +40,7 @@ const Favourites = () => {
 
       {favourites.length === 0 ? (
         <p className={`${styles["no-favorite"]}`}>
-          No favourites yet <i class="bi bi-emoji-frown"></i>
+          No favourites yet <i className="bi bi-emoji-frown"></i>
         </p>
       ) : (
         <Carousel
