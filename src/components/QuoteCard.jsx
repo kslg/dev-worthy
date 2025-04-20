@@ -92,20 +92,22 @@ const QuoteCard = () => {
           {alert.message}
         </Alert>
       )}
-      <h1 className={styles["quote-title"]}>Random Quote Generator</h1>
+      <h1 className={styles["quote-title"]}>
+        Get Inspired with a Random Quote!
+      </h1>
 
       <div className={styles["button-group"]}>
         <button
           onClick={handleLifeQuote}
           className={quoteType === "life" ? styles.active : ""}
         >
-          Life Quote
+          Life-Changing Thoughts
         </button>
         <button
           onClick={handleDevQuote}
           className={quoteType === "dev" ? styles.active : ""}
         >
-          Dev Quote
+          Inspire Your Code with a Dev Quote
         </button>
       </div>
 
