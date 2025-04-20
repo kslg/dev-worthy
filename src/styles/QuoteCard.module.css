@@ -94,6 +94,8 @@
   .button-group,
   .button-box {
     display: flex;
-    flex-direction: column;
+  }
+  .quote-box {
+    padding: 0;
   }
 }
