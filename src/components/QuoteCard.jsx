@@ -93,7 +93,7 @@ const QuoteCard = () => {
         </Alert>
       )}
       <h1 className={styles["quote-title"]}>
-        Get Inspired with a Random Quote!
+        Get Inspired!
       </h1>
 
       <div className={styles["button-group"]}>
@@ -101,13 +101,13 @@ const QuoteCard = () => {
           onClick={handleLifeQuote}
           className={quoteType === "life" ? styles.active : ""}
         >
-          Life-Changing Thoughts
+          Affirmations
         </button>
         <button
           onClick={handleDevQuote}
           className={quoteType === "dev" ? styles.active : ""}
         >
-          Inspire Your Code with a Dev Quote
+          Dev Tips
         </button>
       </div>
 
@@ -124,7 +124,7 @@ const QuoteCard = () => {
 
       <div className={styles["button-box"]}>
         <button onClick={fetchQuote} disabled={loading}>
-          <i className="bi bi-arrow-repeat"></i> Get New Quote
+          <i className="bi bi-arrow-repeat"></i> New Quote
         </button>
         <button onClick={saveToFavourites} disabled={loading || !quote}>
           <i className="bi bi-heart"></i> Save to Favourites
