@@ -14,7 +14,8 @@ const NavBar = () => {
         >
           <img
             src={logo}
-            className={`me-2 ${styles.logo} `}
+            alt="DevWorthy logo"
+            className={`me-2 ${styles.logo}`}
           />
           <span className={`${styles.brandText}`}>Dev Worthy</span>
         </Link>
