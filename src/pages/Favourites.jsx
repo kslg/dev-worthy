@@ -47,8 +47,8 @@ const Favourites = () => {
           className={styles["quote-carousel"]}
           interval={null} // disable auto-slide
           indicators={favourites.length > 1}
-          nextLabel=""
-          prevLabel=""
+          nextLabel="Next quote"
+          prevLabel="Previous quote"
         >
           {favourites.map((quote, index) => (
             <Carousel.Item key={index}>
