@@ -1,5 +1,5 @@
 .modal-box {
-  background-color: #fefae6;
+  background-color: #FEFAE6;
   font-weight: 500;
   font-size: 1.3rem;
 }
@@ -12,7 +12,7 @@
 }
 
 .favorite-title {
-  color: #024E69;
+  color: #febd36;
   font-size: 2.5rem;
   margin-top: 2rem;
   font-weight: 700;
@@ -22,7 +22,7 @@
 
 .favorite-quote {
   font-size: 1.5rem;
-  color: #024E69;
+  color: #febd36;
 }
 
 .no-favorite {
@@ -31,7 +31,7 @@
   margin: 5rem;
   font-weight: 300;
   text-transform: uppercase;
-  color: #024E69;
+  color: #febd36;
 }
 
 .btn-remove {
@@ -47,4 +47,39 @@
 
 .btn-remove:hover {
   background-color: #febd36;
+}
+
+.quote-box {
+  display: flex;
+  flex-direction: column; /* Ensures the content stacks vertically */
+  justify-content: center;
+  align-items: center; /* Centers the content horizontally */
+  background-color: rgb(254, 250, 231, 0.7);
+  border-radius: 16px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+  padding: 2rem;
+  margin: 2rem 0;
+  transition: all 0.3s ease;
+}
+
+.quote-title {
+  color: #024E69;
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  font-weight: 600;
+  font-family: "Poppins", sans-serif;
+  text-align: center;
+}
+
+.quote {
+  font-size: 1.5rem;
+  font-style: italic;
+  margin-bottom: 1rem;
+  color: #024E69;
+}
+
+.author {
+  font-size: 1.1rem;
+  font-weight: bold;
+  color: #024E69;
 }

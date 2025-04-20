@@ -44,13 +44,14 @@ const Favourites = () => {
         </p>
       ) : (
         favourites.map((quote, index) => (
-          <div key={index} className="mb-3 p-3 border rounded">
-            <p className={`mb-1 ${styles["favorite-quote"]}`}>
-              <i class="bi bi-chat"></i> "{quote.quote}"
+          <div key={index} className={styles["quote-box"]}>
+            <h2 className={styles["quote-title"]}>Favourite Quote</h2>
+            <p className={styles.quote}>
+              <i className="bi bi-chat"></i> "{quote.quote}"
             </p>
-            <p className="text-muted">— {quote.author}</p>
+            <p className={styles.author}>— {quote.author}</p>
             <button
-              className={`${styles["btn-remove"]}`}
+              className={styles["btn-remove"]}
               onClick={() => confirmRemove(quote)}
             >
               Remove
