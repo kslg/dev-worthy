@@ -1,4 +1,4 @@
-# DevWorthy
+# 🌟 DevWorthy
 
 
 [<img src="src/assets/images/devworthy_amiresponsive_whole.png" alt="An image representing how the site looks across different devices of varying size.">](https://anthonyradose.github.io/dev-worthy/#home)
@@ -7,98 +7,81 @@
 By Alan, Anthony, Ieuan, Krish, and Melody
 
 
-[View the live project here.](https://anthonyradose.github.io/dev-worthy/#home)
+[🔗 View the live project here.](https://anthonyradose.github.io/dev-worthy/#home)
 
 
 This is the documentation for DevWorthy – a motivational web app designed to support aspiring developers in overcoming imposter syndrome. Built using ReactJS with JSX, Tailwind CSS for styling, and modern JavaScript practices, the site was developed as part of the April 2025 Code Institute Hackathon.
 
 
-## Criteria
+## ✅ Criteria
 
+1. 🧩 The team has built one of the 5 suggested projects  
+2. 💡 The team has innovated on their choice of project  
+3. 📱 The project is fully responsive  
+4. 📋 The project is well planned using GitHub Projects or other issue board tools
 
-1) The team has built one of the 5 suggested projects
-2) The team has innovated on their choice of project
-3) The project is fully responsive
-4) The project is well planned using github projects or other issues board
+---
 
+## 🧠 User Experience - UX
 
-******
+### 🎯 Strategy
 
+This project has been built as a collaborative project through [Code Institute](https://codeinstitute.net/) as a learning tool for working in a professional environment through:
 
-## User Experience - UX
+- 🤝 Teamwork  
+- 🚀 Exposure to Agile Development  
+- 🔄 Experience with version control  
+- 📈 Adding to CV and portfolio  
+- 🌐 Exposure on social media  
+- ⏱️ Delivering projects to tight deadlines
 
+The aim is to create a site that spreads positive and uplifting messages that users can view daily to remind themselves that they are worthy of the goals they pursue.
 
-### Strategy
+#### 🧭 User Goals
 
+- 💬 View inspiring quotes  
+- 👩‍💻 View coding tips and tricks  
+- ⭐ Save quotes to favourites  
+- 🧑‍🤝‍🧑 View information about the team
 
-This project has been built as a collaborative project through [Code Institute](https://codeinstitute.net/) as a learning tool for working in an professional environment through:
-
-
-* Teamwork
-* Exposure to Agile Development
-* Experience with version control
-* Adding to CV and portfolio
-* Exposure on social pedia
-* Delivering projects to tight deadlines
-
-
- The aim is to create a site that spreads positive and uplifting messages that users can view daily to remind themselves that they are worthy of the goals they pursue.
-
-
-#### User Goals
-
-
-- View inspiring quotes
-- View coding tips and tricks
-- Save quotes to favourites
-- View information about the team
-
-
-<sup><sub>[*Back to top*](#devworthy)</sup></sub>
+<sup><sub>[🔝 Back to top](#devworthy)</sub></sup>
 
 
 -----
 
+### 📦 Scope
 
-### Scope
+The scope of DevWorthy was to create a clean, uplifting web app that delivers motivational content to developers experiencing imposter syndrome. The MVP focused on displaying daily affirmations, ensuring accessibility, responsiveness, and a positive user experience.
 
+Features such as user accounts, quote submissions, or personalization were considered out of scope for the hackathon timeframe but could be explored in future iterations.
 
-The scope of DevWorthy was to create a clean, uplifting web app that delivers motivational content to developers experiencing imposter syndrome. The MVP focused on displaying daily affirmations, ensuring accessibility, responsiveness, and a positive user experience. Features such as user accounts, quote submissions, or personalization were considered out of scope for the hackathon timeframe but could be explored in future iterations. The project emphasized clean UI, mobile-first design, and showcasing modern frontend development tools within a short development sprint.
+The project emphasized:
 
+- ✨ Clean UI  
+- 📱 Mobile-first design  
+- 🛠️ Showcasing modern frontend development tools
 
-<sup><sub>[*Back to top*](#devworthy)</sup></sub>
+<sup><sub>[🔝 Back to top](#devworthy)</sub></sup>
 
+---
 
------
+### 🧱 Structure
 
+#### 🗺️ Site Structure
 
-### Structure
+As the purpose of the initial site is quite simple, the navigation route is linear, encouraging users to explore quotes, the dev team, and favourites. Navigation includes quote saving/removal and internal linking between sections.
 
+- 🏠 **Home Page:** Provides an inspiring quote. Users can add quotes to favourites or refresh for a new one.  
+- 👥 **Credits Page:** Showcases the April 2025 Hackathon Team 4.  
+- ⭐ **Favourites Page:** Displays saved quotes and allows users to remove them.
 
-#### Site Structure
+<sup><sub>[🔝 Back to top](#devworthy)</sub></sup>
 
+---
 
-As the purpose of the initial site is quite simple, the navigation route will be linear and will encourage users to view new quotes, view the dev team's information, and view their favourite quotes. This will be the order that the pages appear in the navigation bar along with interactive quote saving/removing and links within the content of the pages to encourage users to click over to the next area of the site.
+### 🧩 Skeleton
 
-- __Home Page:__ When users first navigate to the site they are taken to the index.html page, this provides users with an inspiring quote. Users can choose to add their quote to favourites or view a different quote.
-
-
-- __Credits Page:__ Users can view information about the April 2025 hackathon team 4!
-
-
-- __Favourites Page:__ Users can view their favourite quotes and remove them.
-
-
-<sup><sub>[*Back to top*](#devworthy)</sup></sub>
-
-
------
-
-
-### Skeleton
-
-
-#### Wireframes
+#### 📝 Wireframes
 
 
 <img src="src/assets/images/DevWorthy_wireframes1.png" alt="Wireframe for homepage" width="400"/>
@@ -109,23 +92,17 @@ As the purpose of the initial site is quite simple, the navigation route will be
 
 All wireframes have been created with [Balsamiq](https://balsamiq.com/).
 
-<sup><sub>[*Back to top*](#devworthy)</sup></sub>
+<sup><sub>[🔝 Back to top](#devworthy)</sub></sup>
 
+---
 
------
+## 🎨 User Interface - Design
 
-
-## User Interface - Design
-
-
-### Surface
-
+### 🧁 Surface
 
 The design of the site has been implemented using [Bootstrap](https://getbootstrap.com/) styling across the site. This framework was chosen due to the experience of team members. Streamlining the main aspects of the site's style allowed for members to spend more time with functionality and content creation.
 
-
-#### Typography
-
+#### 🔤 Typography
 
 Fonts have been imported from [Google Fonts](https://fonts.google.com/).
 
@@ -135,39 +112,28 @@ Fonts have been imported from [Google Fonts](https://fonts.google.com/).
 
 [Roboto:](https://fonts.google.com/specimen/Roboto?query=roboto) This sans-serif font is used for the main body text due to its clean, modern look and excellent readability, especially on mobile devices and at small sizes.
 
-
-#### Colours
-
+#### 🎨 Colours
 
 <img src="src/assets/images/DevWorthy_colorScheme.png" alt="Wireframe for favourites page" width="400"/>
 
 
 Colour scheme images made with [coolers](https://coolors.co).
 
-
-<sup><sub>[*Back to top*](#devworthy)</sup></sub>
-
+<sup><sub>[🔝 Back to top](#devworthy)</sub></sup>
 
 -------
 
+## ✨ Features
 
-## Features
+### 🌐 Site Features
 
-
-### Site Features
-
-
-#### Favicon
-
+#### 🔖 Favicon
 
 <img src="src/assets/images/DevWorthy_favicon.png" alt="Favicon" width="200"/>
 
-
 Favicon generated with [Favicon.io](https://favicon.io/) using the logo image for the site.
 
-
 #### Navbar
-
 
 | Feature | Description | Image |
 | :---: | :---: | :---: |
@@ -175,15 +141,12 @@ Favicon generated with [Favicon.io](https://favicon.io/) using the logo image fo
 | Desktop navigation | This is how the navbar appears on desktop | <img src="src/assets/images/devworthy_desktopheader.png" alt="Navbar desktop view" width="200"/> |
 | Mobile navigation | This is how the navbar appears on mobile | <img src="src/assets/images/devworthy_mobileheader.png" alt="Navbar mobile view" width="200"/>
 
-
 #### Footer
-
 
 | Feature | Description | Image |
 | :---: | :---: | :---: |
 | Desktop Footer | This is how the footer appears on desktop | <img src="src/assets/images/devworthy_desktopfooter.png" alt="Footer desktop view" width="200"/> |
 | Mobile Footer | This is how the footer appears on mobile | <img src="src/assets/images/devworthy_mobilefooter.png" alt="Footer mobile view" width="200"/> |
-
 
 #### Home
 
@@ -195,7 +158,6 @@ Favicon generated with [Favicon.io](https://favicon.io/) using the logo image fo
 | __Dev Tips__ | User can view a dev tip to boost motivation |
 | __Add to favourites__ | User can add quote to the favourites page |
 | __Generate new quote__ | User can generate a new quote |
-
 
 ##### Feature App - Quote Generator
 
@@ -232,7 +194,6 @@ Quotes are fetched using the `fetch()` function, and the component’s state is 
 >setQuote(data);
 >
 
-
 #### Favourites
 
 <img src="src/assets/images/devworthy_amiresponsive_favourites.png" alt="An image representing how the favourites page looks across different devices of varying size.">
@@ -241,7 +202,6 @@ Quotes are fetched using the `fetch()` function, and the component’s state is 
 | :---: | :---: |
 | __Favourites view__ | User can see their favourites |
 | __Remove from favourites__ | User can remove a quote from favourites |
-
 
 #### Credits
 
@@ -255,7 +215,6 @@ Quotes are fetched using the `fetch()` function, and the component’s state is 
 #### 404
 
 <img src="src/assets/images/devworthy_404.png" alt="An image representing how the 404 page looks across different devices of varying size.">
-
 
 <sup><sub>[*Back to top*](#devworthy)</sup></sub>
 
@@ -273,51 +232,35 @@ Quotes are fetched using the `fetch()` function, and the component’s state is 
 | **Accessibility Enhancements** | Add ARIA roles, improve keyboard navigation, and screen reader support. |
 | **Multilingual Support** | Implement i18n for broader accessibility across languages. |
 
-
-<sup><sub>[*Back to top*](#devworthy)</sup></sub>
-
+<sup><sub>[🔝 Back to top](#devworthy)</sub></sup>
 
 -----
 
+## ♿ Accessibility
 
-## Accessibility
+### 🖼️ Alt Text
 
+Alternative text has been included for all images across the site to ensure that visually impaired users can understand the content through screen readers.
 
-### Alt Text
+### 🏷️ Aria Labels
 
+Aria labels have been included for all links across the site with modals labelled by their headings, enhancing screen reader navigation and improving the experience for users with disabilities.
 
-Alternative text has been included for all images across the site.
+### 🎨 Colours
 
+Colours are simple with high contrast between background and content, ensuring that text is easily readable by users with varying levels of vision.
 
-### Aria Labels
+### 🔤 Fonts
 
+Fonts have been chosen for their simple style, promoting easy reading and ensuring legibility for all users.
 
-Aria labels have been included for all links across the site with modals labelled by their headings.
-
-
-### Colours
-
-
-Colours are simple with high contrast between background and content.
-
-
-### Fonts
-
-
-Fonts have been chosen for their simple style, promoting easy reading.
-
-
-<sup><sub>[*Back to top*](#devworthy)</sup></sub>
-
+<sup><sub>[🔝 Back to top](#devworthy)</sub></sup>
 
 -------
 
-
 ## Technologies Used
 
-
 ### 🧠 Languages & Technologies Used
-
 
 | Tool/Language | Category | Purpose |
 |----|----|----|
@@ -328,9 +271,7 @@ Fonts have been chosen for their simple style, promoting easy reading.
 | ![JSON](https://img.shields.io/badge/JSON-292929?style=for-the-badge&logo=json&logoColor=white) | Data / Config Format | Used in configuration files like `package.json` |
 | ![Markdown](https://img.shields.io/badge/Markdown-000000?style=for-the-badge&logo=markdown&logoColor=white) | Documentation | Used for writing documentation like `README.md` |
 
-
 ### 🚀 Built With
-
 
 | Tool/Framework | Category | Purpose |
 |----|----|----|
@@ -341,7 +282,6 @@ Fonts have been chosen for their simple style, promoting easy reading.
 | ![npm](https://img.shields.io/badge/npm-CB3837?style=for-the-badge&logo=npm&logoColor=white) | Package Manager | Manages dependencies and scripts for the project. |
 | ![ESLint](https://img.shields.io/badge/ESLint-4B32C3?style=for-the-badge&logo=eslint&logoColor=white) / ![Prettier](https://img.shields.io/badge/Prettier-F7B93E?style=for-the-badge&logo=prettier&logoColor=black) | Linting/Formatting | Ensures code quality and formatting consistency (if configured). |
 | ![PostCSS](https://img.shields.io/badge/PostCSS-DD3A0A?style=for-the-badge&logo=postcss&logoColor=white) | CSS Processing | Used with Tailwind to compile and autoprefix styles. |
-
 
 >#### React + Vite
 >
@@ -357,9 +297,7 @@ Fonts have been chosen for their simple style, promoting easy reading.
 >If you are developing a production application, we recommend using TypeScript with type-aware lint >rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/>create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`]>(https://typescript-eslint.io) in your project.
 >
 
-
 ### 🛠️ Libraries & Tools
-
 
 | Library/Tool | Category | Purpose |
 |----|----|----|
@@ -399,36 +337,26 @@ Fonts have been chosen for their simple style, promoting easy reading.
 | [![UI.dev](https://img.shields.io/badge/UI.dev--Am_I_Responsive%3F-000?style=for-the-badge&logo=google-chrome&logoColor=white)](https://ui.dev/amiresponsive) | To preview the site across a range of screen sizes. |
 | [![W3C Validator](https://img.shields.io/badge/W3C_Validation-HTML%2FCSS-005A9C?style=for-the-badge&logo=w3c&logoColor=white)](https://validator.w3.org/) | To validate the site's HTML and CSS for standards compliance. |
 
-
 <sup><sub>[*Back to top*](#devworthy)</sup></sub>
-
 
 -------
 
+## 📦 Deployment & Local Development
 
-## Deployment & Local Development
+### 🔄 Local Deployment
 
+#### 🍴 How to Fork
 
-### Local Deployment
-
-
-#### How to Fork
-
-
-By forking the GitHub Repository, we make a copy of the original repository on our GitHub account to view and/or make changes without affecting the original owner's repository.
+By forking the GitHub Repository, we make a copy of the original repository on our GitHub account to view and/or make changes without affecting the original owner's repository.  
 You can fork this repository by using the following steps:
-
 
 1. Log in to GitHub and locate the [GitHub Repository](https://github.com/anthonyradose/dev-worthy)
 2. At the top of the Repository (not top of page) just above the "Settings" Button on the menu, locate the "Fork" Button.
 3. Once clicked, you should now have a copy of the original repository in your own GitHub account!
 
-
-#### How to Clone
-
+#### 📥 How to Clone
 
 You can clone the repository by following these steps:
-
 
 1. Go to the [GitHub repository](https://github.com/anthonyradose/dev-worthy)
 2. Locate the Code button above the list of files and click it
@@ -439,24 +367,17 @@ You can clone the repository by following these steps:
     - `git clone -URL-`
 7. Press Enter to create your local clone.
 
-
-<sup><sub>[*Back to top*](#devworthy)</sup></sub>
-
+<sup><sub>[🔝 Back to top](#devworthy)</sup></sub>
 
 -----
 
-
-## Testing
-
+## 🧪 Testing
 
 Please see [TESTING.md](TESTING.md) for all testing elements of this site.
 
-
-<sup><sub>[*Back to top*](#devworthy)</sup></sub>
-
+<sup><sub>[🔝 Back to top](#devworthy)</sup></sub>
 
 -----
-
 
 ## 🏆 Credits & Acknowledgements
 
