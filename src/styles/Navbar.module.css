@@ -62,6 +62,11 @@
   background-color: #FEFAE6;
 }
 
+.burger-menu {
+  display: none;
+  cursor: pointer;
+}
+
 @media (max-width: 768px) {
   .nav-links {
     flex-direction: column;
@@ -77,5 +82,32 @@
 
   .burger-menu {
     display: block; /* show burger icon */
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    z-index: 1000;
+  }
+
+  .brandText {
+    display: none; /* hide brand text on mobile */
+  }
+
+  .toggler {
+    width: auto;
+  }
+
+  .customTogglerIcon {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 20px;
+    height: 18px;
+  }
+  
+  .customTogglerIcon span {
+    height: 2px;
+    width: 100%;
+    background-color: #FEBD36;
+    border-radius: 1px;
   }
 }
