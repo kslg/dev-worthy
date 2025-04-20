@@ -1,7 +1,7 @@
 # DevWorthy
 
 
-<img src="" alt="An image representing how the site looks across different devices of varying size.">
+[<img src="src/assets/images/devworthy_amiresponsive_whole.png" alt="An image representing how the site looks across different devices of varying size.">](https://anthonyradose.github.io/dev-worthy/#home)
 
 
 By Alan, Anthony, Ieuan, Krish, and Melody
@@ -171,10 +171,9 @@ Favicon generated with [Favicon.io](https://favicon.io/) using the logo image fo
 
 | Feature | Description | Image |
 | :---: | :---: | :---: |
-| Brand logo | The brand logo acts as navigation back to the homepage | <img src="src/assets/images/dev-worthy-logo.png" alt="Favicon" width="200"/> |
-| Navigation links | These link to the site pages | |
-| Desktop navigation | This is how the navbar appears on desktop | |
-| Mobile navigation | This is how the navbar appears on mobile | |
+| Brand logo | The brand logo acts as navigation back to the homepage | <img src="src/assets/images/dev-worthy-logo.png" alt="Brand logo" width="200"/> |
+| Desktop navigation | This is how the navbar appears on desktop | <img src="src/assets/images/devworthy_desktopheader.png" alt="Navbar desktop view" width="200"/> |
+| Mobile navigation | This is how the navbar appears on mobile | <img src="src/assets/images/devworthy_mobileheader.png" alt="Navbar mobile view" width="200"/>
 
 
 #### Footer
@@ -182,20 +181,20 @@ Favicon generated with [Favicon.io](https://favicon.io/) using the logo image fo
 
 | Feature | Description | Image |
 | :---: | :---: | :---: |
-| Footer links | | |
-| Desktop Footer | This is how the footer appears on desktop | |
-| Mobile Footer | This is how the footer appears on mobile | |
+| Desktop Footer | This is how the footer appears on desktop | <img src="src/assets/images/devworthy_desktopfooter.png" alt="Footer desktop view" width="200"/> |
+| Mobile Footer | This is how the footer appears on mobile | <img src="src/assets/images/devworthy_mobilefooter.png" alt="Footer mobile view" width="200"/> |
 
 
 #### Home
 
+<img src="src/assets/images/devworthy_amiresponsive_home.png" alt="An image representing how the homepage looks across different devices of varying size.">
 
-| Feature | Description | Image |
-| :---: | :---: | :---: |
-| Daily Quote | User can view a daily inspirational quote | |
-| Dev Tips | User can view a dev tip to boost motivation | |
-| Add to favourites | User can add quote to the favourites page | |
-| Generate new quote | User can generate a new quote | |
+| Feature | Description |
+| :---: | :---: |
+| __Daily Quote__ | User can view a daily inspirational quote |
+| __Dev Tips__ | User can view a dev tip to boost motivation |
+| __Add to favourites__ | User can add quote to the favourites page |
+| __Generate new quote__ | User can generate a new quote |
 
 
 ##### Feature App - Quote Generator
@@ -236,19 +235,22 @@ Quotes are fetched using the `fetch()` function, and the component’s state is 
 
 #### Favourites
 
+<img src="src/assets/images/devworthy_amiresponsive_favourites.png" alt="An image representing how the favourites page looks across different devices of varying size.">
 
-| Feature | Description | Image |
-| :---: | :---: | :---: |
-| Favourites view | User can see their favourites | |
-| Remove from favourites | User can remove a quote from favourites | |
+| Feature | Description |
+| :---: | :---: |
+| __Favourites view__ | User can see their favourites |
+| __Remove from favourites__ | User can remove a quote from favourites |
 
 
 #### Credits
 
+<img src="src/assets/images/devworthy_amiresponsive_credits.png" alt="An image representing how the credits page looks across different devices of varying size.">
 
-| Feature | Description | Image |
-| :---: | :---: | :---: |
-| View team 4 info | User can view information about the team! | |
+| Feature | Description |
+| :---: | :---: |
+| __View team 4__ | User can view members of the team! |
+| __View team links__ | User can flip a team member's card to view their socials |
 
 
 <sup><sub>[*Back to top*](#devworthy)</sup></sub>
