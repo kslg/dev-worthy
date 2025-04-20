@@ -12,6 +12,19 @@ function App() {
   return (
     <>
       <NavBar />
+      {/* Background content */}
+      <div className="video-background">
+        <video autoPlay muted loop playsInline>
+          <source
+            src="https://cdn.coverr.co/videos/coverr-cinematic-snowy-mountains-7615/720p.mp4"
+            type="video/mp4"
+          />
+        </video>
+        <div className="overlay" />
+      </div>
+
+
+      {/* Foreground content */}
       <main className="container-main">
         <Routes>
           <Route path="/" element={<QuoteCard />} />
