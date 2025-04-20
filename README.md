@@ -130,7 +130,7 @@ The design of the site has been implemented using [Bootstrap](https://getbootstr
 Fonts have been imported from [Google Fonts](https://fonts.google.com/).
 
 
-[Poppins:](https://fonts.google.com/specimen/Poppins)
+[Poppins:](https://fonts.google.com/specimen/Poppins) This geometric sans-serif font is used for headers and titles due to its modern, stylish appearance and strong visual presence. Its clean lines and bold weights make it ideal for grabbing attention while maintaining clarity and professionalism.
 
 
 [Roboto:](https://fonts.google.com/specimen/Roboto?query=roboto) This sans-serif font is used for the main body text due to its clean, modern look and excellent readability, especially on mobile devices and at small sizes.
@@ -160,10 +160,10 @@ Colour scheme images made with [coolers](https://coolors.co).
 #### Favicon
 
 
-<img src="" alt="The favicon for the site, - -">
+<img src="src/assets/images/DevWorthy_favicon.png" alt="Favicon" width="200"/>
 
 
-Favicon generated with [Favicon.io](https://favicon.io/).
+Favicon generated with [Favicon.io](https://favicon.io/) using the logo image for the site.
 
 
 #### Navbar
@@ -171,7 +171,7 @@ Favicon generated with [Favicon.io](https://favicon.io/).
 
 | Feature | Description | Image |
 | :---: | :---: | :---: |
-| Brand logo | The brand logo acts as navigation back to the homepage | |
+| Brand logo | The brand logo acts as navigation back to the homepage | <img src="src/assets/images/dev-worthy-logo.png" alt="Favicon" width="200"/> |
 | Navigation links | These link to the site pages | |
 | Desktop navigation | This is how the navbar appears on desktop | |
 | Mobile navigation | This is how the navbar appears on mobile | |
