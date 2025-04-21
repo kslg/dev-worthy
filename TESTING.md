@@ -1,18 +1,19 @@
-# DevWorthy Testing
+# 🧪 DevWorthy Testing
 
-[Back to README.md](README.md)
+[⬅️ Back to README.md](README.md)  
+[🌍 Live Site](https://anthonyradose.github.io/dev-worthy/#/)
 
 [<img src="src/assets/images/devworthy_amiresponsive_whole.png" alt="An image representing how the site looks across different devices of varying size.">](https://anthonyradose.github.io/dev-worthy/#/)
 
-[View the live project here.](https://anthonyradose.github.io/dev-worthy/#/)
+Manual testing was conducted throughout development to ensure all features performed as expected across multiple screen sizes, user flows, and edge cases.
 
-Manual testing was conducted continuously throughout the development process to ensure the functionality of various features across the site.
+---
 
------
+## ✅ Automated Testing
 
-## AUTOMATED TESTING
+### 🧼 HTML & CSS Validation (via [W3C Validator](https://validator.w3.org/))
 
-### ✅ W3C Validator
+#### HTML
 
 [W3C](https://validator.w3.org/) was used to validate the HTML on all pages of the site along with validation of CSS.
 
@@ -34,6 +35,8 @@ Manual testing was conducted continuously throughout the development process to 
 >The HTML ONLY was tested here.
 >The separation and integration of separate styling and script files may need to be implemented in >future, due to time constraints.
 >
+
+#### CSS
 
 <details><summary><strong>Credits.module.css: No Errors ✅</strong></summary>
 <img src="src/assets/images/devworthy_w3_css_creditsmodule.png" alt="No Errors found.">
@@ -60,58 +63,68 @@ Manual testing was conducted continuously throughout the development process to 
 </details>
 
 
-<sup><sub>[*Back to top*](#devworthy-testing)</sup></sub>
+<sup><sub>[🔝 Back to top](#devworthy-testing)</sup></sub>
 
 -----
 
-### Javascript Validation
+### 📜 JavaScript Validation
 
 # 🚧 TO BE COMPLETED 🚧
 
-<sup><sub>[*Back to top*](#contents)</sup></sub>
+<sup><sub>[🔝 Back to top](#contents)</sup></sub>
 
 -----
 
-### Lighthouse
+### 💡 Lighthouse Testing
 
-The lighthouse tool within the chrome developer tools has been used to test performance, best practices, accessibility, and SEO. Desktop and mobile tests have been run for each page.
+Tested using Chrome DevTools for both **Desktop** and **Mobile** performance, accessibility, best practices, and SEO.
 
-# 🚧 TO BE COMPLETED 🚧
+#### 🏠 Index Page
 
 <details><summary>Index</summary>
-<img src="" alt="Desktop test for index page">
+<img src="src/assets/images/devworthy_lighthouse_homedesktop.png" alt="Desktop test for index page">
 
-<img src="" alt="Mobile test for index page">
+<img src="src/assets/images/devworthy_lighthouse_homemobile.png" alt="Mobile test for index page">
 </details>
 
 | | Performance | Accessibility | Best Practice | SEO |
 | :---: | :---: | :---: | :---: | :---: |
-| Desktop | 100 | 100 | 100| 100 |
-| Mobile | 100 | 100 | 100 | 100 |
+| Desktop | 96 | 100 | 100| 100 |
+| Mobile | 74 | 100 | 100 | 100 |
+
+#### 👥 Credits Page
 
 <details><summary>Credits</summary>
-<img src="" alt="Desktop test for register page">
+<img src="src/assets/images/devworthy_lighthouse_creditsdesktop.png" alt="Desktop test for credits page">
 
-<img src="" alt="Mobile test for register page">
+<img src="src/assets/images/devworthy_lighthouse_creditsmobile.png" alt="Mobile test for credits page">
 </details>
 
 | | Performance | Accessibility | Best Practice | SEO |
 | :---: | :---: | :---: | :---: | :---: |
-| Desktop | 100 | 100| 100 | 100 |
-| Mobile | 100 | 100 | 100 | 100 |
+| Desktop | 98 | 98| 100 | 100 |
+| Mobile | 71 | 98 | 100 | 100 |
 
-> Notes for Lighthouse Testing:
->
->
->
+#### ⭐ Favourites Page
 
-<sup><sub>[*Back to top*](#devworthy-testing)</sup></sub>
+<details><summary>Favourites</summary>
+<img src="src/assets/images/devworthy_lighthouse_favouritesdesktop.png" alt="Desktop test for favourites page">
+
+<img src="src/assets/images/devworthy_lighthouse_favouritesmobile.png" alt="Mobile test for favourites page">
+</details>
+
+| | Performance | Accessibility | Best Practice | SEO |
+| :---: | :---: | :---: | :---: | :---: |
+| Desktop | 98 | 100| 100 | 100 |
+| Mobile | 78 | 100 | 100 | 100 |
+
+<sup><sub>[🔝 Back to top](#devworthy-testing)</sup></sub>
 
 -----
 
-## Manual Testing
+## 🔍 Manual Testing
 
-### Testing Project Criteria
+### ✅ Project Criteria
 
 >#### Criteria
 >
@@ -129,7 +142,7 @@ The lighthouse tool within the chrome developer tools has been used to test perf
 | __3) The project is fully responsive__ | Project is usable and appealing across all screen sizes | <img src="src/assets/images/devworthy_amiresponsive_whole.png" alt="Responsive view of the site" width="200"/> |
 | __4) The project is well planned using github projects or other issues board__ | Github projects has been used throughout | <img src="src/assets/images/devworthy_projectBoard.png" alt="A view of the project board midway through the weekend." width="200"/> |
 
-### Testing User Stories
+### 🧑‍💻 Testing User Stories
 
 >#### User Goals
 >
@@ -146,11 +159,11 @@ The lighthouse tool within the chrome developer tools has been used to test perf
 | __Save quotes to favourites__ | Quotes can be saves from the quotes page and viewed on the favourites page | <img src="src/assets/images/devworthy_userstory_favourites.png" alt="View of favourites button" width="200"/> |
 | __View information about the team__ | Team info can be found on the about us page | <img src="src/assets/images/devworthy_amiresponsive_credits.png" alt="Responsive view of credits page." width="200"/>| |
 
-<sup><sub>[*Back to top*](#devworthy-testing)</sup></sub>
+<sup><sub>[🔝 Back to top](#devworthy-testing)</sup></sub>
 
 -----
 
-### Full Testing
+### 🧪 Full Testing
 
 Full testing was performed on the following devices:
 
@@ -167,7 +180,7 @@ Full testing was performed on the following devices:
  * Opera
  * Microsoft Edge
 
-#### Site-Wide
+#### 🌐 Navbar & Layout
 
 | Feature | Expected Outcome | Testing Performed | Result | Pass/Fail |
 |----|----|----|----|----|
@@ -175,7 +188,7 @@ Full testing was performed on the following devices:
 | Brand Logo | Brand logo redirects to the homepage | Clicked logo | Redirected accordingly | ✅ Pass |
 | Footer Links | Links open in new tabs to GitHub | Clicked links | Links open in new tabs to GitHub profile/repos | ✅ Pass |
 
-#### Index Home
+#### 🏠 Index Page
 
 | Feature | Expected Outcome | Testing Performed | Result | Pass/Fail |
 |----|----|----|----|----|
@@ -186,14 +199,14 @@ Full testing was performed on the following devices:
 | Refresh Dev Tip Tab | New dev tip appears when revisiting the Dev Tip tab | Navigated to Affirmation then back to Dev Tip tab | New dev tip quote displayed | ✅ Pass |
 | Save Quote to Favourites | Quote is added to the Favourites section when save is clicked | Clicked save button under a displayed quote | Quote appeared in Favourites section | ✅ Pass |
 
-#### Credits Page
+#### 👥 Credits Page
 
 | Feature | Expected Outcome | Testing Performed | Result | Pass/Fail |
 |----|----|----|----|----|
 | Flip Team Member Card | Card flips when clicked to reveal social links | Clicked on each team member card | Each card flipped successfully to show the back with links | ✅ Pass |
 | Social Links Open Externally | Social links open in new browser tabs | Clicked on each social media icon | Each link opened the correct profile in a new browser tab | ✅ Pass |
 
-#### Favourites Page
+#### ⭐ Favourites Page
 
 | Feature | Expected Outcome | Testing Performed | Result | Pass/Fail |
 |----|----|----|----|----|
@@ -202,45 +215,46 @@ Full testing was performed on the following devices:
 | Remove Individual Quote | Clicking “Remove” deletes that quote from favourites | Clicked remove on a specific quote | Quote disappeared from the carousel instantly | ✅ Pass |
 | Empty State Display | A message is shown when there are no favourite quotes | Removed all quotes or loaded with none   | Message like “No favourite quotes saved” shown | ✅ Pass |
 
-#### 404 Page
+#### 🚫 404 Page
 
 | Feature | Expected Outcome | Testing Performed | Result | Pass/Fail |
 | --- | --- | --- | --- | --- |
 | Appears when incorrect url entered | View 404 page | Input incorrect url path | Page appears | ✅ Pass |
 | Home button | User is returned to index if logged out or their profile if logged in | Click Home button | Redirected accordingly | ✅ Pass |
 
-<sup><sub>[*Back to top*](#devworthy-testing)</sup></sub>
+<sup><sub>[🔝 Back to top](#devworthy-testing)</sup></sub>
 
 -----
 
-### Accessibility Testing
+## ♿ Accessibility Testing
 
-Accessibility was tested using TalkBack on Android. The site is fully navigable with a screen reader, and key features are accessible and readable.
+✅ Site tested using Android’s **TalkBack** screen reader.  
+All interactive components are readable, labelled, and navigable.
 
 
-<sup><sub>[*Back to top*](#devworthy-testing)</sup></sub>
+<sup><sub>[🔝 Back to top](#devworthy-testing)</sup></sub>
 
------
+---
 
-## Bugs
+## 🐞 Bugs
 
-### Solved Bugs
+### ✅ Solved Bugs
 
 | # | Issue | Details | What was done | Fixed? |
 | --- | --- | --- | --- | --- |
 | 1 | 404 Refresh error | Any time the about or favourites pages were refreshed it would redirect to the 404 page. | Added hashrouter to main.jsx | ✅ |
 | 2 | Quote rendering issue | The aspirational quotes API would not render quotes onto the devworthy page. | Review of the API code caught a class error when retreiving the information. " | ✅ |
 
-<sup><sub>[*Back to top*](#devworthy-testing)</sup></sub>
+<sup><sub>[🔝 Back to top](#devworthy-testing)</sup></sub>
 
 -----
 
-### Known Bugs
+### ⚠️ Known Bugs
 
 | #  | Issue | Details | Next Steps |
 |-----|-----|-----|-----|
 | 1 | Layout Issue | Mobile view on dev tools doesn't synch up with actual mobile view | To fix real mobile layout would involve coding blind and extensive manual testing outside the scope of the project timeline |
 
-<sup><sub>[*Back to top*](#devworthy-testing)</sup></sub>
+<sup><sub>[🔝 Back to top](#devworthy-testing)</sup></sub>
 
 -----
