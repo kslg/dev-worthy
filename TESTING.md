@@ -76,34 +76,38 @@ Manual testing was conducted continuously throughout the development process to 
 
 The lighthouse tool within the chrome developer tools has been used to test performance, best practices, accessibility, and SEO. Desktop and mobile tests have been run for each page.
 
-# 🚧 TO BE COMPLETED 🚧
-
 <details><summary>Index</summary>
-<img src="" alt="Desktop test for index page">
+<img src="src/assets/images/devworthy_lighthouse_homedesktop.png" alt="Desktop test for index page">
 
-<img src="" alt="Mobile test for index page">
+<img src="src/assets/images/devworthy_lighthouse_homemobile.png" alt="Mobile test for index page">
 </details>
 
 | | Performance | Accessibility | Best Practice | SEO |
 | :---: | :---: | :---: | :---: | :---: |
-| Desktop | 100 | 100 | 100| 100 |
-| Mobile | 100 | 100 | 100 | 100 |
+| Desktop | 96 | 100 | 100| 100 |
+| Mobile | 74 | 100 | 100 | 100 |
 
 <details><summary>Credits</summary>
-<img src="" alt="Desktop test for register page">
+<img src="src/assets/images/devworthy_lighthouse_creditsdesktop.png" alt="Desktop test for credits page">
 
-<img src="" alt="Mobile test for register page">
+<img src="src/assets/images/devworthy_lighthouse_creditsmobile.png" alt="Mobile test for credits page">
 </details>
 
 | | Performance | Accessibility | Best Practice | SEO |
 | :---: | :---: | :---: | :---: | :---: |
-| Desktop | 100 | 100| 100 | 100 |
-| Mobile | 100 | 100 | 100 | 100 |
+| Desktop | 98 | 98| 100 | 100 |
+| Mobile | 71 | 98 | 100 | 100 |
 
-> Notes for Lighthouse Testing:
->
->
->
+<details><summary>Favourites</summary>
+<img src="src/assets/images/devworthy_lighthouse_favouritesdesktop.png" alt="Desktop test for favourites page">
+
+<img src="src/assets/images/devworthy_lighthouse_favouritesmobile.png" alt="Mobile test for favourites page">
+</details>
+
+| | Performance | Accessibility | Best Practice | SEO |
+| :---: | :---: | :---: | :---: | :---: |
+| Desktop | 98 | 100| 100 | 100 |
+| Mobile | 78 | 100 | 100 | 100 |
 
 <sup><sub>[*Back to top*](#devworthy-testing)</sup></sub>
 
