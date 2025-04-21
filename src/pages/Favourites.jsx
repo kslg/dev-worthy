@@ -73,7 +73,7 @@ const Favourites = () => {
       <Modal show={showModal} onHide={() => setShowModal(false)} centered>
         <Modal.Header closeButton className={`${styles["modal-header"]}`}>
           <Modal.Title>
-            Delete Favorite Quotes <i class="bi bi-check-circle"></i>
+            Delete Favorite Quotes <i className="bi bi-check-circle"></i>
           </Modal.Title>
         </Modal.Header>
         <Modal.Body className={`${styles["modal-box"]}`}>
