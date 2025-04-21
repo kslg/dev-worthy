@@ -112,6 +112,6 @@
   }
 
   button:hover {
-    background-color: none !important;
+    background-color: initial !important;
   }
 }
