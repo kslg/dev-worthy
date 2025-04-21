@@ -237,7 +237,9 @@ Accessibility was tested using TalkBack on Android. The site is fully navigable 
 
 ### Known Bugs
 
-No currently known bugs.
+| #  | Issue | Details | Next Steps |
+|-----|-----|-----|-----|
+| 1 | Layout Issue | Mobile view on dev tools doesn't synch up with actual mobile view | To fix real mobile layout would involve coding blind and extensive manual testing outside the scope of the project timeline |
 
 <sup><sub>[*Back to top*](#devworthy-testing)</sup></sub>
 
