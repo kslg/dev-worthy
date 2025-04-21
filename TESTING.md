@@ -42,15 +42,15 @@ Manual testing was conducted throughout development to ensure all features perfo
 <img src="src/assets/images/devworthy_w3_css_creditsmodule.png" alt="No Errors found.">
 </details>
 
-<details><summary><strong>Favorites.module.css: 🚧 TO BE COMPLETED 🚧</strong></summary>
-<img src="src/assets/images/devworthy_w3_css_favoritesmodule.png" alt="No Errors found.">
+<details><summary><strong>Favorites.module.css: 2x Parse errors ⚠️</strong></summary>
+<img src="src/assets/images/devworthy_w3_css_favouritesmodule.png" alt="Parse error.">
 </details>
 
 <details><summary><strong>Footer.module.css: No Errors ✅</strong></summary>
 <img src="src/assets/images/devworthy_w3_css_footermodule.png" alt="No Errors found.">
 </details>
 
-<details><summary><strong>Navbar.module.css: 🚧 TO BE COMPLETED 🚧</strong></summary>
+<details><summary><strong>Navbar.module.css: No Errors ✅</strong></summary>
 <img src="src/assets/images/devworthy_w3_css_navbarmodule.png" alt="No Errors found.">
 </details>
 
@@ -62,6 +62,15 @@ Manual testing was conducted throughout development to ensure all features perfo
 <img src="src/assets/images/devworthy_w3_css_index.png" alt="No Errors found.">
 </details>
 
+> ### ⚠️ Parse errors: Favourites.module.css  
+>  
+> The W3C validator reports a "parse error" in the `Favourites.module.css` file due to the use of `:global` selectors, which are specific to CSS Modules used in modern React applications.  
+>  
+> These selectors are intentionally used to style third-party components (e.g., carousel navigation buttons) that exist outside the scope of the local module, which is a common and supported approach in React with CSS Modules.  
+>  
+> The validator does not recognize this syntax because it is not part of standard CSS—it is a build-time feature handled by the React development environment (e.g., Webpack or Vite).  
+>  
+> ✅ The styles render correctly in all modern browsers, and removing or altering them to satisfy the validator would break essential carousel functionality and styling. Therefore, this code is valid within the context of the project and does not need to be changed.
 
 <sup><sub>[🔝 Back to top](#devworthy-testing)</sup></sub>
 
