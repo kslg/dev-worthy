@@ -14,7 +14,7 @@ const team = [
   {
     name: "Anthony Radose",
     role: "Developer",
-    image: "src/assets/images/DSC03093 (1).jpg",
+    image: "src/assets/images/DSC03093_(1).jpg",
     github: "https://github.com/anthonyradose",
     linkedin: "https://www.linkedin.com/in/anthony-radose-35a969236",
   },
