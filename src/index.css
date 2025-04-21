@@ -97,7 +97,14 @@ h2 {
 }
 
 /* Media query for tablets and smaller screens */
-@media (max-width: 768px) {
+@media (min-width: 320px) {
+  button {
+    font-size: 0.75rem;
+    padding: 0.25rem 0.5rem;
+  }
+}
+
+@media (min-width: 768px) {
   .section-app {
     height: auto;
     padding: 1rem;
