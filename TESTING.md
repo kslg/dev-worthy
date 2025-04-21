@@ -80,6 +80,296 @@ Manual testing was conducted throughout development to ensure all features perfo
 
 # 🚧 TO BE COMPLETED 🚧
 
+
+
+React Application Testing Overview
+
+The React application was tested using Vitest and React Testing Library, focusing on the components and pages that provide core functionality and routing: QuoteCard, Favourites page, and NotFound page.
+Testing Stack
+
+Testing Framework: Vitest v3.1.1
+
+Testing Library: React Testing Library v16.3.0
+DOM Environment: jsdom v26.1.0
+Router: React Router DOM
+Mocking: Vitest mocks (vi)
+
+Component Tests
+
+ComponentTest CoverageStatusQuoteCardInitial rendering with loading state<br>Fetching and displaying quotes<br>New quote button functionality<br>Saving quotes to favorites<br>Handling duplicate saves<br>Button disable states✅FavouritesEmpty state rendering<br>Loading and displaying saved favorites<br>Interaction with localStorage✅NotFoundRendering of 404 page elements<br>Presence of navigation links✅
+<details>
+  <summary><strong>QuoteCard Component Tests</strong></summary>
+  <br>
+
+Key Test Scenarios:
+
+Rendering and fetching a quote
+Handling "Get New Quote" button clicks
+Displaying success alert when saving to favorites
+Displaying warning alert for duplicate saves
+Disabling buttons appropriately during loading states
+
+Actual Test Code:
+
+javascriptimport { render, screen, fireEvent, waitFor, act } from '@testing-library/react';
+import { vi } from 'vitest';
+import QuoteCard from './QuoteCard';
+
+// Mock the fetch function
+global.fetch = vi.fn();
+
+describe('QuoteCard', () => {
+  afterEach(() => {
+    // Reset fetch mock calls after each test to ensure clean tests
+    fetch.mockClear();
+  });
+
+  it('renders correctly, fetches a quote, and handles "Get New Quote" button click', async () => {
+    // Set up mock fetch behavior
+    fetch.mockResolvedValueOnce({
+      json: () => Promise.resolve({
+        quote: 'Life is beautiful.',
+        author: 'Unknown',
+      }),
+    });
+
+    render(<QuoteCard />);
+
+    // Check if the "Get New Quote" button is rendered
+    const button = screen.getByText('New Quote');
+    expect(button).toBeInTheDocument();
+
+    // Check that the quote is loading initially
+    expect(screen.getByTestId('loader')).toBeInTheDocument();
+
+    // Wait for the quote to be fetched and displayed
+    await waitFor(() => expect(screen.getByText('"Life is beautiful."')).toBeInTheDocument());
+
+    // Check that the "Get New Quote" button is now clickable and not disabled
+    expect(button).toBeEnabled();
+
+    // Simulate clicking the "Get New Quote" button
+    fireEvent.click(button);
+
+    // Ensure the fetch is called after the button click
+    expect(fetch).toHaveBeenCalledTimes(2);
+  });
+
+  it('shows an alert when a quote is saved to favourites', async () => {
+    // Set up mock fetch behavior
+    fetch.mockResolvedValueOnce({
+      json: () => Promise.resolve({
+        quote: 'Life is beautiful.',
+        author: 'Unknown',
+      }),
+    });
+
+    render(<QuoteCard />);
+
+    // Wait for the quote to be fetched and displayed
+    await waitFor(() => expect(screen.getByText('"Life is beautiful."')).toBeInTheDocument());
+
+    const saveButton = screen.getByText('Save to Favourites');
+    fireEvent.click(saveButton);
+
+    // Wait for the alert to appear
+    await waitFor(() => expect(screen.getByRole('alert')).toHaveTextContent('Quote saved to favourites!'));
+  });
+
+  // Additional tests...
+});
+  <img src="src/assets/images/devworthy_test_quotecard.png" alt="Screenshot showing test results for QuoteCard component" style="border: 2px solid #ccc; border-radius: 8px; max-width: 100%;">
+  <!-- Add your screenshot of test results here -->
+</details>
+<details>
+  <summary><strong>Favourites Component Tests</strong></summary>
+  <br>
+Key Test Scenarios:
+
+Rendering empty state when no favorites exist
+Loading and displaying favorites from localStorage
+Confirming localStorage interactions
+
+Actual Test Code:
+javascriptimport { describe, test, expect, vi, beforeEach } from 'vitest';
+import { render, screen, fireEvent } from '@testing-library/react';
+import '@testing-library/jest-dom';
+import Favourites from './Favourites';
+
+// Simple mock for localStorage
+const setupLocalStorageMock = (initialFavourites) => {
+  let storedData = initialFavourites ? JSON.stringify(initialFavourites) : null;
+
+  const localStorageMock = {
+    getItem: vi.fn(() => storedData),
+    setItem: vi.fn((_, value) => {
+      storedData = value;
+    })
+  };
+
+  Object.defineProperty(window, 'localStorage', { value: localStorageMock });
+  return localStorageMock;
+};
+
+describe("Favourites Component", () => {
+  beforeEach(() => {
+    vi.resetAllMocks();
+  });
+
+  test('renders empty state when no favourites', () => {
+    const localStorageMock = setupLocalStorageMock([]);
+
+    render(<Favourites />);
+
+    expect(screen.getByText(/No favourites yet/i)).toBeInTheDocument();
+    expect(localStorageMock.getItem).toHaveBeenCalledWith('favourites');
+  });
+
+  test('renders favourites from localStorage', () => {
+    const mockFavourites = [
+      { quote: 'Test quote 1', author: 'Author 1' }
+    ];
+
+    setupLocalStorageMock(mockFavourites);
+
+    render(<Favourites />);
+
+    expect(screen.getByText(/"Test quote 1"/i)).toBeInTheDocument();
+    expect(screen.getByText(/— Author 1/i)).toBeInTheDocument();
+  });
+
+  // Additional tests...
+});
+  <img src="src/assets/images/devworthy_test_favourites.png" alt="Screenshot showing test results for Favourites component" style="border: 2px solid #ccc; border-radius: 8px; max-width: 100%;">
+  <!-- Add your screenshot of test results here -->
+</details>
+<details>
+  <summary><strong>NotFound Component Tests</strong></summary>
+  <br>
+Key Test Scenarios:
+
+Verifying all required elements are displayed
+Confirming navigation link back to home is present
+
+Actual Test Code:
+javascriptimport { describe, test, expect } from 'vitest';
+import { render, screen } from '@testing-library/react';
+import { BrowserRouter } from 'react-router-dom';
+import NotFound from './NotFound';
+
+describe('NotFound Component', () => {
+  test('renders 404 page correctly', () => {
+    render(
+      <BrowserRouter>
+        <NotFound />
+      </BrowserRouter>
+    );
+
+    expect(screen.getByText('404')).toBeInTheDocument();
+    expect(screen.getByText('Page not found.')).toBeInTheDocument();
+    expect(screen.getByText('Back to Home')).toBeInTheDocument();
+  });
+});
+  <img src="src/assets/images/devworthy_test_notfound.png" alt="Screenshot showing test results for NotFound component" style="border: 2px solid #ccc; border-radius: 8px; max-width: 100%;">
+  <!-- Add your screenshot of test results here -->
+</details>
+Testing Approaches
+🧩 Mock Implementation
+
+localStorage: Custom mock implementation for testing Favourites component
+javascript// Actual localStorage mock implementation from your tests
+const setupLocalStorageMock = (initialFavourites) => {
+  let storedData = initialFavourites ? JSON.stringify(initialFavourites) : null;
+
+  const localStorageMock = {
+    getItem: vi.fn(() => storedData),
+    setItem: vi.fn((_, value) => {
+      storedData = value;
+    })
+  };
+
+  Object.defineProperty(window, 'localStorage', { value: localStorageMock });
+  return localStorageMock;
+};
+
+fetch: Global fetch mock for testing API interactions in QuoteCard
+javascript// Actual fetch mock implementation from your tests
+global.fetch = vi.fn();
+
+// Example mock response setup:
+fetch.mockResolvedValueOnce({
+  json: () => Promise.resolve({
+    quote: 'Life is beautiful.',
+    author: 'Unknown',
+  }),
+});
+
+
+🔍 Testing Patterns
+
+Component mounting and initial rendering
+Asynchronous testing with waitFor and async/await
+Event simulation (clicks, user interactions) using fireEvent
+DOM assertions with Testing Library's expect and toBeInTheDocument
+Alert and notification testing
+Mock cleanup with afterEach and beforeEach
+
+📝 Vitest Configuration
+javascript// vitest.config.js
+import { defineConfig } from 'vitest/config';
+import react from '@vitejs/plugin-react';
+
+export default defineConfig({
+  plugins: [react()],
+  test: {
+    environment: 'jsdom',
+    globals: true,
+    setupFiles: ['./src/setupTests.js'],
+    css: true,
+  },
+});
+▶️ Running Tests
+bashnpm test
+🛠️ Key Testing Utilities
+
+For QuoteCard:
+
+waitFor - for asynchronous operations
+fireEvent - for simulating user interactions
+act - for handling React state updates
+
+
+For Favourites:
+
+vi.resetAllMocks - for clean test state
+Custom localStorage mock - for simulating browser storage
+
+
+For NotFound:
+
+BrowserRouter wrapper - for testing components using React Router
+
+
+
+📋 Best Practices Applied
+
+✅ Isolated component testing
+✅ Mocking external dependencies
+✅ Asserting both UI elements and behavior
+✅ Testing error and edge cases
+✅ Clean test setup with beforeEach and afterEach
+
+Test Coverage Report
+<details>
+  <summary><strong>Overall Test Coverage</strong></summary>
+  <br>
+  <img src="src/assets/images/devworthy_test_coverage.png" alt="Screenshot showing overall test coverage statistics" style="border: 2px solid #ccc; border-radius: 8px; max-width: 100%;">
+  <!-- Add your screenshot of coverage report here -->
+</details>
+FileStatementsBranchesFunctionsLinesApp.jsx%%%%QuoteCard.jsx%%%%Favourites.jsx%%%%NotFound.jsx%%%%Credits.jsx%%%%Navbar.jsx%%%%
+<!-- Add your actual coverage percentages in the table above -->
+<sup><sub>🔝 Back to top</sup></sub>
+
 <sup><sub>[🔝 Back to top](#contents)</sup></sub>
 
 -----
