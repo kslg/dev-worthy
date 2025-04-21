@@ -1,13 +1,13 @@
 # 🌟 DevWorthy
 
 
-[<img src="src/assets/images/devworthy_amiresponsive_whole.png" alt="An image representing how the site looks across different devices of varying size.">](https://anthonyradose.github.io/dev-worthy/#home)
+[<img src="src/assets/images/devworthy_amiresponsive_whole.png" alt="An image representing how the site looks across different devices of varying size.">](https://anthonyradose.github.io/dev-worthy/#/)
 
 
 By Alan, Anthony, Ieuan, Krish, and Melody
 
 
-[🔗 View the live project here.](https://anthonyradose.github.io/dev-worthy/#home)
+[🔗 View the live project here.](https://anthonyradose.github.io/dev-worthy/#/)
 
 
 This is the documentation for DevWorthy – a motivational web app designed to support aspiring developers in overcoming imposter syndrome. Built using ReactJS with JSX, Tailwind CSS for styling, and modern JavaScript practices, the site was developed as part of the April 2025 Code Institute Hackathon.

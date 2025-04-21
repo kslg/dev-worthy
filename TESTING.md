@@ -2,9 +2,9 @@
 
 [Back to README.md](README.md)
 
-[<img src="src/assets/images/devworthy_amiresponsive_whole.png" alt="An image representing how the site looks across different devices of varying size.">](https://anthonyradose.github.io/dev-worthy/#home)
+[<img src="src/assets/images/devworthy_amiresponsive_whole.png" alt="An image representing how the site looks across different devices of varying size.">](https://anthonyradose.github.io/dev-worthy/#/)
 
-[View the live project here.](https://anthonyradose.github.io/dev-worthy/#home)
+[View the live project here.](https://anthonyradose.github.io/dev-worthy/#/)
 
 Manual testing was conducted continuously throughout the development process to ensure the functionality of various features across the site.
 
