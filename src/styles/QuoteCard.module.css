@@ -89,6 +89,13 @@
 }
 
 /* Media query for mobiles and smaller screens */
+
+@media (max-width: 375px) {
+  .quote {
+    font-size: 1rem;
+  }
+}
+
 @media (max-width: 545px) {
 
   .button-group,
