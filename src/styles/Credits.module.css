@@ -114,14 +114,11 @@
   text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.4);
 }
 
-@media (max-width: 412px) {
+@media (max-width: 1200px) {
   .card {
     width: 99px;
-    height: 160px;
+    height: 220px;
   }
-}
-
-@media (max-width: 1200px) {
   .avatar {
     width: 70px;
     height: 70px;

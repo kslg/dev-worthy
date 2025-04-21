@@ -89,9 +89,18 @@
 }
 
 /* Media query for mobiles and smaller screens */
-
-@media (max-width: 412px) {
+@media (min-width: 320px) {
+  .quote-title {
+    font-size: 1.75rem;
+  }
+  .button-group > button {
+    padding: 0.25rem 0.5rem;
+    font-size: 0.75rem;
+  }
   .quote {
+    font-size: 1rem;
+  }
+  .author {
     font-size: 1rem;
   }
 }
