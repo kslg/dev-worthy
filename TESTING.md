@@ -109,16 +109,6 @@ The lighthouse tool within the chrome developer tools has been used to test perf
 
 -----
 
-### WAVE Testing
-
-The site has been tested for accessibility with [WAVE](https://wave.webaim.org). __I ASSUME__
-
-# 🚧 TO BE COMPLETED 🚧
-
-<sup><sub>[*Back to top*](#devworthy-testing)</sup></sub>
-
------
-
 ## Manual Testing
 
 ### Testing Project Criteria
@@ -238,8 +228,8 @@ Accessibility was tested using TalkBack on Android. The site is fully navigable 
 
 | # | Issue | Details | What was done | Fixed? |
 | --- | --- | --- | --- | --- |
-| 1 | | | | __YES__ |
-| 2 | | | | __NO__ |
+| 1 | 404 Refresh error | Any time the about or favourites pages were refreshed it would redirect to the 404 page. | Added hashrouter to main.jsx | ✅ |
+| 2 | Quote rendering issue | The aspirational quotes API would not render quotes onto the devworthy page. | Review of the API code caught a class error when retreiving the information. " | ✅ |
 
 <sup><sub>[*Back to top*](#devworthy-testing)</sup></sub>
 
@@ -247,10 +237,7 @@ Accessibility was tested using TalkBack on Android. The site is fully navigable 
 
 ### Known Bugs
 
-| # | Issue | Details | Next Steps |
-| --- | --- | --- | --- |
-| 1 | | | |
-| 2 | | | |
+No currently known bugs.
 
 <sup><sub>[*Back to top*](#devworthy-testing)</sup></sub>
 
