@@ -29,7 +29,7 @@ const team = [
     name: "Kris Gharu",
     role: "Developer",
     image: "https://ca.slack-edge.com/T0L30B202-U02RCA8RLSW-e4b98f0d6e62-512",
-    github: "https://github.com/placeholder",
+    github: "https://github.com/kslg",
     linkedin: "https://www.linkedin.com/in/krishang/",
   },
   {
