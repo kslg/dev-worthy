@@ -1,20 +1,29 @@
 /* QuoteCard.module.css */
 
+/* ===== LAYOUT AND CONTAINERS ===== */
 .quote-box {
   display: flex;
+  flex-direction: column;
   justify-content: center;
-  background-color: rgb(254, 250, 231, 0.7);
+  align-items: center;
+  background-color: rgba(254, 250, 231, 0.7);
   border-radius: 16px;
   box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
-  padding: 2rem;
-  margin: 2rem 0;
+  padding: 1.5rem;
+  margin: 2rem auto;
   transition: all 0.3s ease;
+  max-width: 800px;
+  width: 90%;
 }
 
 .button-box {
   display: flex;
   justify-content: center;
   gap: 1rem;
+  width: 100%;
+  max-width: 600px;
+  margin: 0 auto;
+  flex-wrap: wrap;
 }
 
 .button-group {
@@ -22,8 +31,14 @@
   justify-content: center;
   gap: 1rem;
   margin-bottom: 1rem;
+  width: 100%;
+  max-width: 600px;
+  margin: 0 auto 1rem auto;
+  flex-wrap: wrap;
 }
 
+/* ===== BUTTONS ===== */
+/* Top buttons (Affirmations/Dev Tips) */
 .button-group button {
   padding: 0.5rem 1rem;
   font-size: 1rem;
@@ -33,11 +48,15 @@
   border: 2px solid #024e69;
   border-radius: 8px;
   transition: background-color 0.3s ease, transform 0.2s ease;
+  flex: 1;
+  min-width: 120px;
+  max-width: 250px;
+  color: #024e69;
 }
 
 .button-group button:hover {
   background-color: #febd36;
-  color: #fff;
+  color: #024e69;
   transform: scale(1.05);
 }
 
@@ -46,28 +65,70 @@
   color: #fff;
 }
 
+/* Bottom buttons (New Quote/Save to Favourites) */
+.button-box button {
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  font-family: inherit;
+  cursor: pointer;
+  background-color: #febd36;
+  border: none;
+  border-radius: 8px;
+  transition: all 0.3s ease;
+  flex: 1;
+  min-width: 120px;
+  max-width: 250px;
+  color: #024e69;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.button-box button:hover {
+  background-color: #fe8664;
+  color: #fff;
+  transform: scale(1.05);
+}
+
+.button-box button:active {
+  transform: scale(0.98);
+  background-color: #fe8664;
+}
+
+.button-box button:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+  transform: none;
+  background-color: #febd36;
+}
+
+/* ===== TYPOGRAPHY ===== */
 .quote-title {
   color: #febd36;
-  font-size: 2.5rem;
+  font-size: 2rem;
   margin-top: 2rem;
+  margin-bottom: 2rem;
   font-weight: 700;
   font-family: "Poppins", sans-serif;
   text-align: center;
 }
 
 .quote {
-  font-size: 1.5rem;
+  font-size: 1.3rem;
   font-style: italic;
   margin-bottom: 1rem;
   color: #024e69;
+  line-height: 1.5;
+  text-align: center;
 }
 
 .author {
   font-size: 1.1rem;
   font-weight: bold;
   color: #024e69;
+  margin-top: 1rem;
+  text-align: center;
 }
 
+/* ===== ANIMATIONS ===== */
 .loader {
   border: 4px solid #fefae6;
   border-top: 4px solid #024e69;
@@ -82,21 +143,36 @@
   0% {
     transform: rotate(0deg);
   }
-
   100% {
     transform: rotate(360deg);
   }
 }
 
-/* Media query for mobiles and smaller screens */
+/* ===== RESPONSIVE STYLES ===== */
+/* Small mobile devices (320px and up) */
 @media (min-width: 320px) {
   .quote-title {
     font-size: 1.75rem;
   }
-  .button-group > button {
+  .button-box button,
+  .button-group button {
     padding: 0.25rem 0.5rem;
     font-size: 0.75rem;
+    min-width: 100px;
   }
+  .quote {
+    font-size: 0.9rem;
+  }
+  .author {
+    font-size: 0.9rem;
+  }
+  .quote-box {
+    padding: 1rem;
+    width: 95%;
+  }
+}
+
+@media (min-width: 375px) {
   .quote {
     font-size: 1rem;
   }
@@ -105,23 +181,78 @@
   }
 }
 
-@media (max-width: 545px) {
-
-  .button-group,
-  .button-box {
-    display: flex;
-  }
-  .quote-box {
-    padding: 0;
+@media (min-width: 425px) {
+  .button-box button,
+  .button-group button {
+    font-size: 0.85rem;
+    padding: 0.4rem 0.75rem;
   }
 }
 
-@media (max-width: 1400px) {
-  .quote-box {
-    padding: 0.5em;
-    margin: 0.5rem 0;
-  }
+@media (min-width: 576px) {
   .quote-title {
-    margin-top: 1rem;
+    font-size: 2rem;
+  }
+  .quote-box {
+    padding: 1.5rem;
+    width: 90%;
+  }
+  .quote {
+    font-size: 1.1rem;
+  }
+  .button-box button,
+  .button-group button {
+    font-size: 0.9rem;
+    padding: 0.45rem 0.9rem;
+  }
+}
+
+@media (min-width: 768px) {
+  .quote-title {
+    font-size: 2.25rem;
+  }
+  .quote {
+    font-size: 1.2rem;
+  }
+  .author {
+    font-size: 1.05rem;
+  }
+  .button-box button,
+  .button-group button {
+    font-size: 0.95rem;
+    padding: 0.5rem 1rem;
+  }
+}
+
+@media (min-width: 992px) {
+  .quote-title {
+    font-size: 2.5rem;
+  }
+  .quote {
+    font-size: 1.3rem;
+  }
+  .author {
+    font-size: 1.1rem;
+  }
+  .button-box button,
+  .button-group button {
+    font-size: 1rem;
+  }
+}
+
+@media (min-width: 1200px) {
+  .quote-box {
+    max-width: 900px;
+  }
+  .button-group,
+  .button-box {
+    max-width: 700px;
+  }
+}
+
+@media (min-width: 1400px) {
+  .quote-box {
+    max-width: 1000px;
+    width: 80%;
   }
 }

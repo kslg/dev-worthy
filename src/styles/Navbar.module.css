@@ -4,6 +4,20 @@
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
   transition: background-color 0.3s ease;
   background-color: #035069;
+  position: fixed !important; /* Fixed position so it stays at the top */
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 10; /* Higher than your container-main z-index of 2 */
+}
+
+/* Use !important to override any potential Bootstrap defaults */
+:global(.navbar) {
+  position: fixed !important;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 10;
 }
 
 .brandText {
