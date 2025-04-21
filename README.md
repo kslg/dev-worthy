@@ -10,7 +10,7 @@ By Alan, Anthony, Ieuan, Krish, and Melody
 [🔗 View the live project here.](https://anthonyradose.github.io/dev-worthy/#/)
 
 
-This is the documentation for DevWorthy – a motivational web app designed to support aspiring developers in overcoming imposter syndrome. Built using ReactJS with JSX, Bootstrap for styling, and modern JavaScript practices, the site was developed as part of the April 2025 Code Institute Hackathon.
+This is the documentation for DevWorthy – a motivational web app designed to support aspiring developers in overcoming imposter syndrome. Built using ReactJS with JSX, Bootstrap CSS for styling, and modern JavaScript practices, the site was developed as part of the April 2025 Code Institute Hackathon.
 
 
 ## ✅ Criteria
