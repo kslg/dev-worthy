@@ -90,7 +90,7 @@
 
 /* Media query for mobiles and smaller screens */
 
-@media (max-width: 375px) {
+@media (max-width: 412px) {
   .quote {
     font-size: 1rem;
   }
