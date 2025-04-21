@@ -51,41 +51,43 @@ const Credits = () => {
         <div className={styles.teamGrid}>
           {team.map((member, index) => (
             <div key={index} className={styles.card}>
-            <div className={styles.cardInner}>
-              {/* Front Side */}
-              <div className={styles.cardFront}>
-                <img
-                  src={member.image}
-                  alt={`${member.name}, ${member.role}`}
-                  className={styles.avatar}
-                />
-                <h3 className={styles.name}>{member.name}</h3>
-                <p className={styles.role}>{member.role}</p>
-              </div>
-          
-              {/* Back Side */}
-              <div className={styles.cardBack}>
-                <h4>Connect With Me</h4>
-                <div className={styles.links}>
-                  {member.linkedin && (
-                    <a href={member.linkedin} target="_blank" rel="noopener noreferrer">
-                      <FaLinkedin size={24} color="#0077b5" />
-                    </a>
-                  )}
-                  {member.github && (
-                    <a href={member.github} target="_blank" rel="noopener noreferrer">
-                      <FaGithub size={24} color="#333" />
-                    </a>
-                  )}
+              <div className={styles.cardInner}>
+                {/* Front Side */}
+                <div className={styles.cardFront}>
+                  <img
+                    src={member.image}
+                    alt={`${member.name}, ${member.role}`}
+                    className={styles.avatar}
+                  />
+                  <h3 className={styles.name}>{member.name}</h3>
+                  <p className={styles.role}>{member.role}</p>
+                </div>
+
+                {/* Back Side */}
+                <div className={styles.cardBack}>
+                  <h4>Connect With Me</h4>
+                  <div className={styles.links}>
+                    {member.linkedin && (
+                      <a href={member.linkedin} target="_blank"
+                       rel="noopener noreferrer" aria-label={`LinkedIn profile of ${member.name}`}>
+                        <FaLinkedin size={24} color="#0077b5" />
+                      </a>
+                    )}
+                    {member.github && (
+                      <a href={member.github} target="_blank" rel="noopener noreferrer"
+                       aria-label={`Github profile of ${member.name}`}>
+                        <FaGithub size={24} color="#333" />
+                      </a>
+                    )}
+                  </div>
                 </div>
               </div>
             </div>
-          </div>
           ))}
         </div>
       </main>
     </>
   );
 };
-  
+
 export default Credits;
