@@ -10,7 +10,7 @@ By Alan, Anthony, Ieuan, Krish, and Melody
 [🔗 View the live project here.](https://anthonyradose.github.io/dev-worthy/#/)
 
 
-This is the documentation for DevWorthy – a motivational web app designed to support aspiring developers in overcoming imposter syndrome. Built using ReactJS with JSX, Tailwind CSS for styling, and modern JavaScript practices, the site was developed as part of the April 2025 Code Institute Hackathon.
+This is the documentation for DevWorthy – a motivational web app designed to support aspiring developers in overcoming imposter syndrome. Built using ReactJS with JSX, Bootstrap CSS for styling, and modern JavaScript practices, the site was developed as part of the April 2025 Code Institute Hackathon.
 
 
 ## ✅ Criteria
@@ -268,7 +268,6 @@ Fonts have been chosen for their simple style, promoting easy reading and ensuri
 | ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black) / ![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB) | Programming / Framework | Main logic for components, interactivity, and UI |
 | ![JSX](https://img.shields.io/badge/JSX-61DAFB?style=for-the-badge&logo=react&logoColor=white) | Syntax Extension     | Combines JavaScript and HTML-like syntax in React components             |
 | ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white) | Markup Language      | Defines the structure of content via JSX                                 |
-| ![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white) | Styling Framework | Styles components with utility-first classes |
 | ![JSON](https://img.shields.io/badge/JSON-292929?style=for-the-badge&logo=json&logoColor=white) | Data / Config Format | Used in configuration files like `package.json` |
 | ![Markdown](https://img.shields.io/badge/Markdown-000000?style=for-the-badge&logo=markdown&logoColor=white) | Documentation | Used for writing documentation like `README.md` |
 
@@ -278,11 +277,9 @@ Fonts have been chosen for their simple style, promoting easy reading and ensuri
 |----|----|----|
 | ![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB) | Frontend | Core JavaScript framework used to build reusable UI components. |
 | ![Vite](https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white) | Build Tool | Fast dev server and build tool that bundles your app for production. |
-| ![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white) | Styling | Utility-first CSS framework for rapid UI development. |
 | ![gh-pages](https://img.shields.io/badge/gh--pages-deploy-blue?style=for-the-badge&logo=github) | Deployment | Deploys your production build to GitHub Pages. |
 | ![npm](https://img.shields.io/badge/npm-CB3837?style=for-the-badge&logo=npm&logoColor=white) | Package Manager | Manages dependencies and scripts for the project. |
 | ![ESLint](https://img.shields.io/badge/ESLint-4B32C3?style=for-the-badge&logo=eslint&logoColor=white) / ![Prettier](https://img.shields.io/badge/Prettier-F7B93E?style=for-the-badge&logo=prettier&logoColor=black) | Linting/Formatting | Ensures code quality and formatting consistency (if configured). |
-| ![PostCSS](https://img.shields.io/badge/PostCSS-DD3A0A?style=for-the-badge&logo=postcss&logoColor=white) | CSS Processing | Used with Tailwind to compile and autoprefix styles. |
 
 >#### React + Vite
 >
