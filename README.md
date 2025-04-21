@@ -415,9 +415,9 @@ We've integrated some awesome APIs for your daily dose of inspiration and dev ti
 A huge shoutout to our team for all the effort and dedication in bringing **DevWorthy** to life:
 
 - [**Alan**](https://github.com/llancruzz) – The visionary behind the app’s design and overall concept, with significant contributions to the UX to ensure a seamless user experience.
-- [**Anthony**](https://github.com/anthonyradose) – The dev guru who shaped logic and functionality, handled API integration, did extensive debugging, and ensured everything was working smoothly.
+- [**Anthony**](https://github.com/anthonyradose) – The dev guru who helped shaped logic and functionality, handled API integration, did extensive debugging, and ensured everything was working smoothly.
 - [**Ieuan**](https://github.com/IeuanPriede) – The architect of the user interface, responsible for design and structuring of pages.
-- [**Krish**](https://github.com/kslg) – The wizard who worked on API integration, ensuring smooth interaction with external services.
+- [**Krish**](https://github.com/kslg) – The wizard who brought the quote generator to life by implementing its core React functionality and integrating the external API for seamless user experience.
 - [**Melody**](https://github.com/Melody-Lisa) – Scrum Master, keeping the team on track, and managing the majority of the documentation throughout the project.
 
 ---
